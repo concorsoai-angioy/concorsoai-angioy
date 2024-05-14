@@ -6,11 +6,11 @@
 
 /* Palette */
 :root {
-    --testo: #F7FFF7;
-    --sfondo: #343434;
-    --sfondoDiv: #2F3061; /*040549 blu piu acceso*/
-    --titoli: #578FC7;
-    --dettagli: #28E053;
+    --testo: #eaeaee;
+    --sfondo: #151524;
+    --sfondoDiv: #212181; /*040549 blu piu acceso*/
+    --titoli: #9e9ed8;
+    --dettagli: #27e86d;
 }
 
 /* Esempio di come usare palette
@@ -49,7 +49,7 @@ body{
     margin-right: 20px;
 }
 
-.menu, a, button {
+.nav, a, button {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -69,20 +69,20 @@ header{
 
 }
 
-.menu{
+.nav{
     list-style: none;
 }
 
-.menu li {
+.nav li {
     display: inline-block;
     padding: 0 20px;
 }
 
-.menu li a {
+.nav li a {
     transition: all .3s ease;
 }
 
-.menu a:hover{
+.nav a:hover{
     color: #fff;
     column-fill: balance;
 }
