@@ -8,7 +8,7 @@
 :root {
     --testo: #F7FFF7;
     --sfondo: #343434;
-    --sfondoDiv: #2F3061;
+    --sfondoDiv: #2F3061; /*040549 blu piu acceso*/
     --titoli: #578FC7;
     --dettagli: #28E053;
 }
@@ -17,8 +17,7 @@
 .element {
     color: var(--dettagli);
     background-color: var(--sfondo);
-} */
-
+} 
 body {
     height: 10000px;
 }
@@ -38,4 +37,63 @@ section {
     height: 10%;
     border: solid;
     border-color: black;
+}*/
+
+body{
+    background-color: var(--sfondo);
+}
+
+.logo{
+    height: ;
+    color: rgb(18, 115, 226);
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.menu, a, button {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+    background-color: var(--sfondoDiv);
+
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menu li a {
+    transition: all .3s ease;
+}
+
+.menu a:hover{
+    color: #fff;
+    column-fill: balance;
+}
+
+button{
+    margin-left: auto;
+    padding: 9px 25px;
+    background: rgb(18, 115, 226);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s ease;
 }
