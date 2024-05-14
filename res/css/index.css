@@ -13,11 +13,11 @@
     --dettagli: #28E053;
 }
 
-/* Esempio di come usare palette */
+/* Esempio di come usare palette
 .element {
     color: var(--dettagli);
     background-color: var(--sfondo);
-}
+} */
 
 body {
     height: 10000px;
