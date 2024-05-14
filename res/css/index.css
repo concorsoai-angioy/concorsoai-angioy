@@ -4,6 +4,20 @@
     margin: 0; padding: 0;   
 }
 
+/* Palette */
+:root {
+    --testo: #F7FFF7;
+    --sfondo: #343434;
+    --sfondoDiv: #2F3061;
+    --titoli: #578FC7;
+    --dettagli: #28E053;
+}
+
+/* Esempio di come usare palette */
+.element {
+    color: var(--dettagli);
+    background-color: var(--sfondo);
+}
 
 body {
     height: 10000px;
