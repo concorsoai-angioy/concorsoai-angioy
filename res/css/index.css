@@ -19,10 +19,23 @@ body{
 
 .logo{
     font-weight: bold;
+    margin-left: 20px;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(18, 115, 226);
-    margin-left: -20px;
-    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: var(--sfondoDiv);
+    border-radius: 50px;
+    
 }
 
 .menu, a, button {
@@ -33,17 +46,13 @@ body{
     text-decoration: none;
 }
 
-header{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px 8%;
-    background-image: linear-gradient(rgb(12, 12, 12), #242424);
-
-}
 
 .menu{
     list-style: none;
+}
+
+.menu ul {
+    margin-left: 50px;
 }
 
 .menu li {
@@ -62,6 +71,7 @@ header{
 
 button{
     margin-left: auto;
+    margin-right: 20px;
     padding: 9px 25px;
     background: rgb(18, 115, 226);
     border: none;
