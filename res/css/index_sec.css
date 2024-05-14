@@ -1,0 +1,110 @@
+/*reset delle misure per i browser*/
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;   
+}
+
+/* Palette */
+:root {
+    --testo: #F7FFF7;
+    --sfondo: #343434;
+    --sfondoDiv: #2F3061; /*040549 blu piu acceso*/
+    --titoli: #578FC7;
+    --dettagli: #28E053;
+}
+
+body{
+    background-color: var(--sfondo);
+}
+
+.logo{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(18, 115, 226);
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.menu, a, button {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 8%;
+    background-image: linear-gradient(rgb(12, 12, 12), #242424);
+
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menu li a {
+    transition: all .3s ease;
+}
+
+.menu a:hover{
+    color: #fff;
+    column-fill: balance;
+}
+
+button{
+    margin-left: auto;
+    padding: 9px 25px;
+    background: rgb(18, 115, 226);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+section{
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bubbleSX{
+    background-color: var(--sfondoDiv);
+    color: var(--testo);
+    width: 35%;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.bubbleDX{
+    background-color: var(--sfondoDiv);
+    color: var(--testo);
+    width: 35%;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 67%;
+}
+
+.bubbleText{
+
+}
+
+.bubbleImg{
+    background-color: #F7FFF7;
+    height: 80%;
+    width: 30%;
+}
