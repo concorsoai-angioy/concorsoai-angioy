@@ -76,6 +76,16 @@ section{
     margin-right: 5%;
 }
 
+.containerSX{
+
+}
+
+.containerDX{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
 .bubbleSX{
     background-color: var(--sfondoDiv);
     color: var(--testo);
@@ -96,7 +106,6 @@ section{
     display: flex;
     align-items: center;
     justify-content:space-around;
-    margin-left: 67%;
 }
 
 .bubbleText{
