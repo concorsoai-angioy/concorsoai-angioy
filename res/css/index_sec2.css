@@ -15,6 +15,8 @@
 
 body{
     background-color: var(--sfondo);
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .logo{
@@ -85,6 +87,17 @@ section{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
-    
-    background-color: bisque;
+    background-color: rgb(94, 94, 94);
+}
+
+.block{
+    display: block;
+    width: 80%;
+    background-color: cadetblue;
+    border-style: solid;
+}
+.block h2{
+    width: 100%;
+    background-color: brown;
+    text-align: center;
 }
