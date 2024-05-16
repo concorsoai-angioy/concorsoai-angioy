@@ -110,6 +110,7 @@
     --titoli: #578FC7;
     --dettagli: #28E053;
     --backbutton: #7573f8;
+    --sfondonav: #040549;
 }
 
 /*reset delle misure per i browser*/
@@ -129,7 +130,7 @@ body{
 }
 
 header{
-    background-color: var(--sfondoDiv);
+    background-color: #060f24;
     height: 45px;
     width: 80%;
     margin-inline: 10%;
@@ -151,6 +152,12 @@ nav a{
     text-align: center;
     text-wrap: nowrap;
     text-decoration: none;
+}
+
+
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #fca311;
 }
 
 .logo{
@@ -175,7 +182,7 @@ nav a{
 button{
     margin-right: 8px;
     padding: 9px 25px;
-    background: var(--backbutton);
+    background: #fca311;
     color: var(--testo);
     font-weight: bold;
     border: none;
