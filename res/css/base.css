@@ -108,10 +108,11 @@
     --sfondo: #0F101A;
     --sfondoDiv: #001D4A;
     --sfondoDiv2: #00A1E0;
-    --titoli: #578FC7;
+    --titoli: #E6E6E6;
     --dettagli: #FFB60A;
-    --backbutton: #7573f8; /*DA CCAMBIARE*/
+    --backbutton: #FFB60A; /*DA CCAMBIARE*/
     --sfondonav: #040549; /*DA CCAMBIARE*/
+    --sfondonav2: #060f24;
 }
 
 /*reset delle misure per i browser*/
@@ -125,14 +126,14 @@ h1, h2, h3, h4{
 }
 
 body{
-    background-color: var(--sfondo);
+    background-color: var(--testo);
     color: var(--testo);
     font-family: Roboto;
 }
 
 header{
-    background-color: #060f24;
-    height: 45px;
+    background-color: var(--sfondonav2);
+    height: 55px;
     width: 80%;
     margin-inline: 10%;
     border-radius: 48px;
@@ -149,7 +150,7 @@ nav{
 
 nav a{
     font-family: Arial, Helvetica, sans-serif;
-    color:#c2c2d3;
+    color:var(--testo);
     text-align: center;
     text-wrap: nowrap;
     text-decoration: none;
@@ -158,9 +159,8 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
-    text-decoration-color: #fca311;
+    text-decoration-color: var(--dettagli);
 }
-
 .logo{
    grid-column: 1 / span 5;
    text-align: left;
@@ -168,9 +168,8 @@ nav a:hover{
 
 .logoimg{
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 15px;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(18, 115, 226);
     height: 38px;
     width: 38px;
 }
@@ -181,9 +180,9 @@ nav a:hover{
 }
 
 button{
-    margin-right: 8px;
+    margin-right: 15px;
     padding: 9px 25px;
-    background: #fca311;
+    background: var(--backbutton);
     color: var(--testo);
     font-weight: bold;
     border: none;
@@ -194,6 +193,7 @@ button{
 
 section{
     display: block;
+    height: 500px;
     padding: 3%;
     margin-left: 5%;
     margin-right: 5%;
@@ -201,6 +201,9 @@ section{
 }
 
 footer{
-    height: 500px;
+    height: 250px;
+    margin-inline: 25%;
+    background-color: var(--sfondonav2);
+    border-radius: 50px; 
 }
 
