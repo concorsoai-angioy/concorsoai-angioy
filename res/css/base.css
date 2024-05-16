@@ -128,54 +128,57 @@ body{
 }
 
 header{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 2%;
-    margin-right: 20%;
-    margin-left: 20%;
     background-color: var(--sfondoDiv);
-    border-radius: 50px;
-    
+    height: 45px;
+    width: 80%;
+    margin-inline: 10%;
+    border-radius: 48px;
+    margin-top: 1%;
 }
 
-.menu, a, button {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    color: #fff;
+nav{
+    height: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    gap: 20px;
+}
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#c2c2d3;
+    text-align: center;
+    text-wrap: nowrap;
     text-decoration: none;
 }
 
-.menu{
-    list-style: none;
-}
-
-.menu ul {
-    margin-left: 50px;
-}
-
-.menu li {
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.menu li a {
-    transition: all .3s ease;
-}
-
-.menu a:hover{
-    color: #fff;
-    column-fill: balance;
-}
-
 .logo{
+   grid-column: 1 / span 5;
+   text-align: left;
+}
+
+.logoimg{
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 10px;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(18, 115, 226);
-    height: 50px;
-    width: 50px;
+    height: 38px;
+    width: 38px;
+}
+
+.button{
+   text-align: right;
+   grid-column: 13;
+}
+
+button{
+    margin-right: 8px;
+    padding: 9px 25px;
+    background: rgb(18, 115, 226);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s ease;
 }
 
 section{
