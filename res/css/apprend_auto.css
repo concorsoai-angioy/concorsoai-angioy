@@ -77,7 +77,7 @@ button{
 :root {
     --testo: #F7FFF7;
     --sfondo: #343434;
-    --sfondoDiv: #2F3061; /*040549 blu piu acceso*/
+    --sfondoDiv: #1f2033; /*040549 blu piu acceso*/
     --titoli: #578FC7;
     --dettagli: #28E053;
 }
@@ -86,10 +86,6 @@ button{
 *{
     box-sizing: border-box;
     margin: 0; padding: 0;   
-}
-
-div, span{
-    background-color: var(--sfondoDiv);
 }
 
 h1, h2{
@@ -127,3 +123,20 @@ footer{
 
 /*BASE*/
 
+.container{
+    background-color: var(--sfondoDiv);
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.text{
+    text-align: justify;
+    padding: 50px;
+}
