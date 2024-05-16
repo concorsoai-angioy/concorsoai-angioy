@@ -4,15 +4,6 @@
     margin: 0; padding: 0;   
 }
 
-/* Palette */
-:root {
-    --testo: #F7FFF7;
-    --sfondo: #343434;
-    --sfondoDiv: #2F3061; /*040549 blu piu acceso*/
-    --titoli: #578FC7;
-    --dettagli: #28E053;
-}
-
 body{
     background-color: var(--sfondo);
 }
@@ -79,3 +70,60 @@ button{
     cursor: pointer;
     transition: all .3s ease;
 }
+
+/*BASE*/
+
+/* Palette */
+:root {
+    --testo: #F7FFF7;
+    --sfondo: #343434;
+    --sfondoDiv: #2F3061; /*040549 blu piu acceso*/
+    --titoli: #578FC7;
+    --dettagli: #28E053;
+}
+
+/*reset delle misure per i browser*/
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;   
+}
+
+div, span{
+    background-color: var(--sfondoDiv);
+}
+
+h1, h2{
+    color: var(--titoli);
+}
+
+body{
+    background-color: var(--sfondo);
+    color: var(--testo);
+    font-family: Roboto;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: var(--sfondoDiv);
+    border-radius: 50px;
+}
+
+section{
+    display: block;
+    padding: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+footer{
+    height: 500px;
+}
+
+/*BASE*/
+
