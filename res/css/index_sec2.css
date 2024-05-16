@@ -10,7 +10,7 @@
     border-radius: 50px;
     text-align: justify;
     transition: transform 0.4s ease; /* Aggiungi una transizione fluida */
-    background-color: #2F3061;
+    background-color: var(--sfondoDiv);
 }
 .block h2{
     width: 100%;
