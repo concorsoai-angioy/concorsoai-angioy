@@ -25,10 +25,12 @@ section{
 
 .separator{
     display: block;
+
 }
 
 .separatorImg{
     display: block;
     height: 100%;
     width: 100%;
+
 }
