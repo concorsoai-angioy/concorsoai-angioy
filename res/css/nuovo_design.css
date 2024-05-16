@@ -16,7 +16,7 @@ section{
 }
 
 .container2{
-    background-color: var(--backbutton);
+    background-color: var(--sfondoDiv2);
 }
 
 .container2 h1{
@@ -25,7 +25,6 @@ section{
 
 .separator{
     display: block;
-
 }
 
 .separatorImg{

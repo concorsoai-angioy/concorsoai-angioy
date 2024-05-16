@@ -104,13 +104,14 @@
 
 /* Palette */
 :root {
-    --testo: #F7FFF7;
-    --sfondo: #343434;
-    --sfondoDiv: #1f2033; /*040549 blu piu acceso*/
+    --testo: #E6E6E6;
+    --sfondo: #0F101A;
+    --sfondoDiv: #001D4A;
+    --sfondoDiv2: #00A1E0;
     --titoli: #578FC7;
-    --dettagli: #28E053;
-    --backbutton: #7573f8;
-    --sfondonav: #040549;
+    --dettagli: #FFB60A;
+    --backbutton: #7573f8; /*DA CCAMBIARE*/
+    --sfondonav: #040549; /*DA CCAMBIARE*/
 }
 
 /*reset delle misure per i browser*/
