@@ -14,7 +14,7 @@
 }
 
 div, span{
-    background-color: var(--sfondoDiv);
+    /* background-color: var(--sfondoDiv); */
 }
 
 h1, h2{
@@ -87,7 +87,7 @@ button{
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all .3s ease;
+    transition: all .5s ease;
 }
 
 section{
@@ -95,11 +95,11 @@ section{
     /* display: block; */
     /* padding-top: 2%;
     padding-bottom: 2%; */
-    padding: 2%;
+    padding: 3%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
-    background-color: rgb(94, 94, 94);
+    /* background-color: rgb(94, 94, 94); */
     /* justify-content: center; */
     /* align-items: center; */
 }
@@ -107,18 +107,16 @@ section{
 .block{
     display: block;
     width: 100%;
-    border-style: solid;
     border-width: 2px;
-    border-color: var(--dettagli);
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-right: 3%;
     padding-left: 3%;
     border-radius: 50px;
     text-align: justify;
-    margin-bottom: 4%;
-    transition: transform 0.3s ease; /* Aggiungi una transizione fluida */
+    transition: transform 0.4s ease; /* Aggiungi una transizione fluida */
+    background-color: #2F3061;
 }
 .block h2{
     width: 100%;
@@ -131,7 +129,13 @@ section{
 }
 
 .block:not(.active) {
-    transform: scale(0.5); /* Rimpicciolisci i blocchi non attivi */
+    transform: scale(0.5);
+    opacity: 50%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-/* Aggiungi altri stili se necessario */
+footer{
+    height: 500px;
+}
