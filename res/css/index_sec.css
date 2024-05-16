@@ -37,12 +37,11 @@
 }
 
 .bubbleImgSX, .bubbleImgDX{
-    /* background-color: var(--testo); */
+    background-color: var(--testo);
     height: 100%;
     width: 20%;
     overflow: hidden;
     background-size: cover;
-    /* ima */
 }
 
 .bubbleImgSX{
