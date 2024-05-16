@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="visual"
+   viewBox="0 0 900 289.48859"
+   width="900"
+   height="289.48859"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <rect
+     x="0"
+     y="0"
+     width="900"
+     height="289.37988"
+     fill="#7573f8"
+     id="rect1"
+     style="stroke-width:0.65476" />
+  <path
+     d="m 0,19.836979 h 150 v 1.77573 h 150 v 7.10293 H 450 V 7.4068593 h 150 v -4.43933 H 750 V 51.800149 h 150 v -36.4025 269.023371 0 H 750 v 0 H 600 v 0 H 450 v 0 H 300 v 0 H 150 v 0 H 0 Z"
+     fill="#7573f8"
+     id="path1"
+     style="stroke-width:0.942266" />
+  <path
+     d="m 0,68.967529 h 150 v 2.5891 H 300 V 112.11912 H 450 V 81.049979 h 150 v 15.53457 h 150 v 0 h 150 v 5.178191 183.82578 0 H 750 v 0 H 600 v 0 H 450 v 0 H 300 v 0 H 150 v 0 H 0 Z"
+     fill="#5357b2"
+     id="path2"
+     style="stroke-width:0.928995" />
+  <path
+     d="m 0,149.96753 h 150 v 22.23935 h 150 v -9.01595 h 150 v 10.81914 h 150 v -16.82978 h 150 v -4.20744 h 150 v 12.62233 86.55314 0 H 750 v 0 H 600 v 0 H 450 v 0 H 300 v 0 H 150 v 0 H 0 Z"
+     fill="#373b70"
+     id="path3"
+     style="stroke-width:0.775283" />
+  <path
+     d="m 0,215.82813 h 150 v 12.15754 h 150 v -15.01814 h 150 v 16.44845 h 150 v 3.57575 h 150 v -17.87875 h 150 v 27.89084 46.48474 0 H 750 v 0 H 600 v 0 H 450 v 0 H 300 v 0 H 150 v 0 H 0 Z"
+     fill="#1f2033"
+     id="path4"
+     style="stroke-width:0.845666" />
+</svg>
