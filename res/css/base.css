@@ -126,7 +126,7 @@ h1, h2, h3, h4{
 }
 
 body{
-    background-color: var(--testo);
+    background-color: var(--sfondo);
     color: var(--testo);
     font-family: Roboto;
 }
