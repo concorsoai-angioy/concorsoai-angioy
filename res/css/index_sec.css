@@ -1,65 +1,83 @@
-.container{
+.container {
     display: flex;
     width: 100%;
-    margin-bottom: 3%;
-    /* background-color:rgb(58, 6, 16); */
+    margin-top: 2%;
 }
 
-.void{
+.void {
     display: flex;
     height: 100%;
-    width: 55%;
+    width: 35%;
 }
 
-.bubble{
-    /* display: flex; */
+.bubble {
     background-color: var(--sfondoDiv);
-    width: 45%;
+    width: 65%;
     border-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
+    transition: transform 0.7s ease;
 }
 
-.bubble h3{
+.bubble h2 {
     width: 100%;
-    /* background-color: aqua; */
     text-align: center;
     margin-bottom: 2%;
 }
 
-.bubbleText{
+.bubbleText {
     margin: 5%;
     height: 80%;
     width: 80%;
     text-align: justify;
-    /* font-size: 25px; */
+    font-size: 25px;
 }
 
-.bubbleImgSX, .bubbleImgDX{
-    /* background-color: var(--testo); */
+.bubbleImgSX, .bubbleImgDX {
     height: 100%;
     width: 20%;
     overflow: hidden;
     background-size: cover;
 }
 
-.bubbleImgSX{
+.bubbleImgSX {
     border-radius: 80% 20px 20px 80%;
 }
 
-.bubbleImgDX{
+.bubbleImgDX {
     border-radius: 20px 80% 80% 20px;
 }
 
-#img1{
+#img1 {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f3/Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg);
     background-position: center;
     background-size: cover;
 }
 
-#img2{
+#img2 {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f3/Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.bubble:not(.active) {
+    transform: scale(0.8);
+    opacity: 50%;
+}
+
+.bubble:active{
+    transform: scale(1);
+}
+
+.SX.active {
+    transform: translateX(150px);
+}
+
+.DX.active {
+    transform: translateX(-150px);
+}
+
+section{
+    padding: 0;
 }
