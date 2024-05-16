@@ -37,16 +37,16 @@
 }
 
 .bubbleImgSX, .bubbleImgDX{
-    background-color: var(--testo);
+    /* background-color: var(--testo); */
     height: 100%;
     width: 20%;
     overflow: hidden;
     background-size: cover;
+    /* ima */
 }
 
 .bubbleImgSX{
     border-radius: 80% 20px 20px 80%;
-    background-image: url(res\img\Risorsa 4.svg);
 }
 
 .bubbleImgDX{
@@ -54,7 +54,7 @@
 }
 
 #img1{
-    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f3/Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg); */
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f3/Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg);
     background-position: center;
     background-size: cover ;
 }
