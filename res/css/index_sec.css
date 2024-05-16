@@ -2,44 +2,43 @@
     display: flex;
     width: 100%;
     margin-bottom: 3%;
+    /* background-color:rgb(58, 6, 16); */
+}
+
+.void{
+    display: flex;
+    height: 100%;
+    width: 55%;
+    background-color: aqua;
 }
 
 .bubble{
     background-color: var(--sfondoDiv);
-    width: 50%;
+    width: 45%;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content:center;
-    /* margin-bottom: 20px; */
-    /* padding: 2%; */
 }
 
 .bubbleText{
     margin: 5%;
     width: 80%;
+    text-align: justify;
+    /* font-size: 25px; */
 }
 
-/* .bubbleContent{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    width: 100%;
-    height: 100%;
-    margin: 5%;
-} */
-
-
-.bubbleImg{
+.bubbleImgSX, .bubbleImgDX{
     background-color: var(--testo);
     height: 100%;
     width: 20%;
 }
 
-#sx{
+.bubbleImgSX{
     border-radius: 80% 20px 20px 80%;
 }
 
-#dx{
+.bubbleImgDX{
     border-radius: 20px 80% 80% 20px;
 }
+
