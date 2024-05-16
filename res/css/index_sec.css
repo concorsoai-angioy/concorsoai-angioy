@@ -13,6 +13,7 @@
 }
 
 .bubble{
+    /* display: flex; */
     background-color: var(--sfondoDiv);
     width: 45%;
     border-radius: 20px;
@@ -21,8 +22,16 @@
     justify-content:center;
 }
 
+.bubble h3{
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-bottom: 2%;
+}
+
 .bubbleText{
     margin: 5%;
+    height: 80%;
     width: 80%;
     text-align: justify;
     /* font-size: 25px; */
