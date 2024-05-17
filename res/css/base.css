@@ -206,15 +206,43 @@ section{
     margin-top: 2%;
 }
 
-.wallpaper{
-    width: 100%;
-}
-
 footer{
-    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 450px;
     bottom: 0;
     margin-inline: 4%;
     background-color: var(--sfondonav2);
     border-radius: 50px 50px 0 0; 
 }
 
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    grid-row: 1 / span 2;
+    margin-top: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color:var(--testo);
+    padding: 2%;
+}
+
+.logo-footer{
+    grid-row: 3 / 3;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer-img{
+    height: 80%;
+    width: auto;
+    margin-top: 5%;
+}
+
+.destit{
+    grid-row: 4 / 4;
+}

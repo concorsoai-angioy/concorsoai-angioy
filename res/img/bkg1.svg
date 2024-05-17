@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="visual"
+   viewBox="0 0 4096 2160"
+   width="4096"
+   height="2160"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <rect
+     x="-4098.5059"
+     y="-2161.7295"
+     width="4096"
+     height="2160"
+     fill="#e6e6e6"
+     id="rect1"
+     transform="scale(-1)" />
+  <g
+     fill="none"
+     stroke="#040549"
+     stroke-width="5"
+     id="g5"
+     transform="rotate(180,1782.0269,1189.6752)">
+    <circle
+       r="346"
+       cx="151"
+       cy="773"
+       id="circle1" />
+    <circle
+       r="151"
+       cx="2416"
+       cy="2023"
+       id="circle2" />
+    <circle
+       r="257"
+       cx="667"
+       cy="1466"
+       id="circle3" />
+    <circle
+       r="324"
+       cx="2159"
+       cy="856"
+       id="circle4" />
+    <circle
+       r="307"
+       cx="2889"
+       cy="1026"
+       id="circle5" />
+  </g>
+</svg>
