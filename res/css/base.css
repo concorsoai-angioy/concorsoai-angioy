@@ -161,6 +161,7 @@ nav a:hover{
     text-decoration: underline;
     text-decoration-color: var(--dettagli);
 }
+
 .logo{
    grid-column: 1 / span 5;
    text-align: left;
@@ -191,19 +192,29 @@ button{
     transition: all .3s ease;
 }
 
+.back-img{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
 section{
     display: block;
-    height: 500px;
+    height: 600px;
     padding: 3%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
 }
 
+.wallpaper{
+    width: 100%;
+}
+
 footer{
-    height: 250px;
-    margin-inline: 25%;
+    height: 300px;
+    bottom: 0;
+    margin-inline: 4%;
     background-color: var(--sfondonav2);
-    border-radius: 50px; 
+    border-radius: 50px 50px 0 0; 
 }
 
