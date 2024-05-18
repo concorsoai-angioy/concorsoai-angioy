@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.rajdhani-regular {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rajdhani-medium {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.rajdhani-semibold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.rajdhani-bold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Palette */
+:root {
+    --testo: #E6E6E6;
+    --sfondo: #0F101A;
+    --sfondoDiv: #001D4A;
+    --sfondoDiv2: #00A1E0;
+    --titoli: #E6E6E6;
+    --dettagli: #FFB60A;
+    --backbutton: #FFB60A; /*DA CCAMBIARE*/
+    --sfondonav: #040549; /*DA CCAMBIARE*/
+    --sfondonav2: #060f24;
+}
+
+/*reset delle misure per i browser*/
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;   
+}
+
+h1, h2, h3, h4{
+    color: var(--titoli);
+}
+
+body{
+    background-color: var(--testo);
+    color: var(--testo);
+    font-family: Roboto;
+}
+
+header{
+    background-color: var(--sfondonav2);
+    height: 55px;
+    width: 80%;
+    margin-inline: 10%;
+    border-radius: 48px;
+    margin-top: 1%;
+}
+
+nav{
+    height: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    gap: 20px;
+}
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--testo);
+    text-align: center;
+    text-wrap: nowrap;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--dettagli);
+}
+
+.logo{
+   grid-column: 1 / span 5;
+   text-align: left;
+}
+
+.logoimg{
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 38px;
+    width: 38px;
+}
+
+.button{
+   text-align: right;
+   grid-column: 13;
+}
+
+button{
+    margin-right: 15px;
+    padding: 9px 25px;
+    background: var(--backbutton);
+    color: var(--testo);
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.back-img{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+section{
+    display: block;
+    height: 600px;
+    padding: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 450px;
+    bottom: 0;
+    margin-inline: 4%;
+    background-color: var(--sfondonav2);
+    border-radius: 50px 50px 0 0; 
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    grid-row: 1 / span 2;
+    margin-top: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color:var(--testo);
+    padding: 2%;
+}
+
+.logo-footer{
+    grid-row: 3 / 3;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer-img{
+    height: 80%;
+    width: auto;
+    margin-top: 5%;
+}
+
+.destit{
+    grid-row: 4 / 4;
+}
