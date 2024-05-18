@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="res/css/base.css">
     <link rel="stylesheet" href="res/css/sondaggio.css">
     <link rel="shortcut icon" href="res/img/logo.svg" type="image/x-icon">
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
-    <script src="res/js/sondaggio.js"></script> -->
     <script src="res/js/gsap.min.js" charset="utf-8"></script>
-    <script src="res/js/ScrollTrigger.min.js" charset="utf-8"></script>
+    <script src="res/js/ScrollTrigger.min.js"></script>
     <script>
         let tl = gsap.timeline({
             scrolltrigger: {
-                trigger: '.container',
+                trigger: '.prova',
                 start: 'top center',
                 end: 'bottom center',
                 scrub: true,
@@ -28,6 +27,11 @@
         });
         
     </script>
+    <style>
+        .prova{
+            opacity: 0;
+        }
+    </style>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="res/js/base.js"></script>
     <title>Home Page</title>
@@ -44,7 +48,7 @@
         </nav>
     </header>
     <section>
-        <div class="container">
+        <div class="container prova">
             <div class="blockSX">
                 <span class="text">
                     Per verificare i pareri su un argomento così nuovo e divisivo come l’intelligenza artificiale si è
