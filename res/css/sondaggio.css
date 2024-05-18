@@ -88,7 +88,6 @@
 #inizio .text{
     width: 100%;
     font-size: 25px;
-    /* padding-top: 0; */
 }
 
 #inizio .grafico{
@@ -105,11 +104,9 @@
 }
 
 #conclusioni{
-    /* display: flex; */
     padding: 3%;
     background-color: var(--sfondoDiv2);
     border-radius: 20px;
-    /* height: 100%; */
     margin-bottom: 5%;
 }
 
