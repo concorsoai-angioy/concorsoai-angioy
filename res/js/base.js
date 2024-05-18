@@ -5,7 +5,7 @@ var direction = 'w';
 function bgscroll() {
     current -= 1;
     $('body').css("backgroundPosition", (direction == 'h') ? current + "px 0" : "0 " + current + "px");
-
 }
-setInterval("bgscroll()", scrollSpeed);
-//----------------------------------------------------
+window.onload = function() {
+    setInterval("bgscroll()", scrollSpeed);
+};
