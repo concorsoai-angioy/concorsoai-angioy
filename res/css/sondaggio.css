@@ -73,33 +73,6 @@
     background-image: url(../../res/img/grafici/8.svg);
 }
 
-/* #containerConclusioni{
-    margin-top: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: aqua;
-    margin-bottom: 5%;
-}
-
-#containerConclusioni span{
-
-    background-color: var(--sfondoDiv2);
-    width: 80%;
-    padding: 2%;
-    border-radius: 20px;
-    font-size: 20px;
-    text-align: justify;
-}
-
-#containerConclusioni h2{
-    align-items: center;
-    margin-bottom: 2%;
-    text-align: center;
-    height: 20%;
-} */
-
 #inizio{
     background-color: var(--sfondoDiv2);
     border-radius: 20px;
