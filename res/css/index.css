@@ -24,6 +24,25 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.benvenutoContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.benvenutoText{
+    width: 90%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.benvenutoImg{
+    background-image: url(../../res/img/ai1.jpg);
+    width: 40%;
+    height: 40%;
 }
 
 .zonaBox{
