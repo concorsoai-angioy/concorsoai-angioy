@@ -134,7 +134,7 @@ body{
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
-    image-rendering:auto; 
+    image-rendering:auto;
 }
 
 header{
