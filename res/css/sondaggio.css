@@ -1,0 +1,19 @@
+body{
+    background-color: var(--testo);
+}
+
+.container{
+    display: flex;
+    background-color: var(--sfondoDiv);
+    margin-bottom: 2%;
+    width: 100%;
+    min-height: 30%;
+}
+
+.grafico{
+    /* background-color: black; */
+    width: 60%;
+    background-image: url(res\img\grafici\1.png);
+    background-position: center;
+    background-size: cover;
+}
