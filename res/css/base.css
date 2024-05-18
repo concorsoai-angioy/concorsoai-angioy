@@ -105,7 +105,7 @@
 /* Palette */
 :root {
     --testo: #E6E6E6;
-    --sfondo: #0F101A;
+    --sfondo: #E6E6E6;
     --sfondoDiv: #001D4A;
     --sfondoDiv2: #00A1E0;
     --titoli: #E6E6E6;
@@ -197,14 +197,14 @@ button{
     background-attachment: scroll;
 }
 
-section{
+/* section{
     display: block;
     height: 600px;
     padding: 3%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
-}
+} */
 
 footer{
     display: grid;
