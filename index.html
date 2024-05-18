@@ -7,7 +7,19 @@
         <link rel="stylesheet" href="res/css/index.css">
         <link rel="shortcut icon" href="res/img/logo.svg" type="image/x-icon">
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="res/js/base.js"></script>
+        <!-- <script src="res/js/base.js"></script> -->
+        <script>
+            var scrollSpeed = 20;
+            var current = 0;
+            var direction = 'w';
+            function bgscroll() {
+                current -= 1;
+                $('body').css("backgroundPosition", (direction == 'h') ? current + "px 0" : "0 " + current + "px");
+
+            }
+            setInterval("bgscroll()", scrollSpeed);
+            //----------------------------------------------------
+        </script>
         <title>Home Page</title>
     </head>
     <body>
