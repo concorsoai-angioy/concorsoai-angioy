@@ -8,4 +8,6 @@ let tl = gsap.timeline({
     }
 });
 
-tl.to('container', {})
+tl.to('container', {
+    opacity: 1
+});
