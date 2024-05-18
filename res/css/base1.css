@@ -115,6 +115,17 @@
     --sfondonav2: #060f24;
 }
 
+body{
+    background-color: var(--sfondo);
+    color: var(--testo);
+    font-family: Roboto;
+    background-image: url("../../res/img/bkg1.svg");
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    image-rendering:auto;
+}
+
 /*reset delle misure per i browser*/
 *{
     box-sizing: border-box;

@@ -10,14 +10,6 @@
     --sfondonav2: #060f24;
 }
 
-
-body{
-    background-image: url("../../res/img/bkg1.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-} 
-
 /* Dropdown Button */
 .dropbtn {
     font-size: 16px;
