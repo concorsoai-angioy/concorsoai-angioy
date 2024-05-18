@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    id="visual"
-   viewBox="0 0 4096 2160"
-   width="4096"
-   height="2160"
+   viewBox="0 0 3991.6428 2065.0486"
+   width="3991.6428"
+   height="2065.0486"
    version="1.1"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs5" />
   <rect
-     x="-4098.5059"
-     y="-2161.7295"
+     x="-4051.2109"
+     y="-2118.1863"
      width="4096"
      height="2160"
      fill="#e6e6e6"
@@ -22,7 +22,7 @@
      stroke="#040549"
      stroke-width="5"
      id="g5"
-     transform="rotate(180,1782.0269,1189.6752)">
+     transform="matrix(-1.1753954,0,0,-1.1786806,3759.5022,2565.3983)">
     <circle
        r="346"
        cx="151"

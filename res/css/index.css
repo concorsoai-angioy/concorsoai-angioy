@@ -1,9 +1,15 @@
 body{
     background-image: url("../../res/img/bkg1.svg");
-    background-repeat: no-repeat;
+    -webkit-animation: loader 16s steps(1000) infinite;
+    -moz-animation: loader 16s steps(1000) infinite;
+    -ms-animation: loader 16s steps(1000) infinite;
+    -o-animation: loader 16s steps(1000) infinite;
+    animation: loader 16s steps(1000) infinite;
+    background-size: cover; 
     background-position: center;
-    background-size: cover;
-} 
+    background-attachment: fixed;
+    image-rendering:auto; 
+}
 
 section{
     width: 100%;
@@ -12,6 +18,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 1.5;
 }
 
 .benvenuto{
@@ -19,7 +26,7 @@ section{
     font-family: "Rajdhani";
     font-size: 25px;
     width: 100%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     padding: 3%;
     display: flex;
     justify-content: center;
@@ -41,8 +48,8 @@ section{
 
 .benvenutoImg{
     background-image: url(../../res/img/ai1.jpg);
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
 }
 
 .zonaBox{
@@ -73,3 +80,45 @@ section{
     padding: 3%;
     border-radius: 20px;
 }
+
+
+@-webkit-keyframes loader {
+    from {
+      background-position: 0;
+    }
+    to {
+      background-position: 0 -1600px;
+    }
+  }
+  @-moz-keyframes loader {
+    from {
+      background-position: 0;
+    }
+    to {
+      background-position: 0 -1600px;
+    }
+  }
+  @-ms-keyframes loader {
+    from {
+      background-position: 0;
+    }
+    to {
+      background-position: 0 -1600px;
+    }
+  }
+  @-o-keyframes loader {
+    from {
+      background-position: 0;
+    }
+    to {
+      background-position: 0 -1600px;
+    }
+  }
+  @keyframes loader {
+    from {
+      background-position: 0;
+    }
+    to {
+      background-position: 0 -1000px;
+    }
+  }
