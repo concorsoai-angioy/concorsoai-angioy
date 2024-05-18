@@ -133,7 +133,7 @@ body{
 
 header{
     background-color: var(--sfondonav2);
-    height: 55px;
+    height: 70px;
     width: 80%;
     margin-inline: 10%;
     border-radius: 48px;
@@ -169,7 +169,7 @@ nav a:hover{
 
 .logoimg{
     font-weight: bold;
-    margin-left: 15px;
+    margin-left: 20px;
     font-family: 'Courier New', Courier, monospace;
     height: 38px;
     width: 38px;
@@ -181,7 +181,7 @@ nav a:hover{
 }
 
 button{
-    margin-right: 15px;
+    margin-right: 20px;
     padding: 9px 25px;
     background: var(--backbutton);
     color: var(--testo);

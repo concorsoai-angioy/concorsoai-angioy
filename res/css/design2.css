@@ -8,7 +8,8 @@ body{
 section{
     width: 100%;
     margin-top:1%;
-    height: 500px;
+    /* height: 500px; */
+    margin-bottom: 1%;
 }
 
 .benvenuto{
@@ -57,7 +58,7 @@ section{
 }
 
 .col3{
-    grid-column: 4 / ;
+    grid-column: 4 span 5;
     background-color: aqua;
 
 }
