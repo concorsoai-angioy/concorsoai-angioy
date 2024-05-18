@@ -129,6 +129,11 @@ body{
     background-color: var(--sfondo);
     color: var(--testo);
     font-family: Roboto;
+    background-image: url("../../res/img/bkg1.svg");
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    image-rendering:auto; 
 }
 
 header{
