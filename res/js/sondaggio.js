@@ -1,5 +1,11 @@
 let tl = gsap.timeline({
     scrolltrigger: {
-        trigger: 
+        trigger: '.container',
+        start: 'top center',
+        end: 'bottom center',
+        scrub: true,
+        markers: true
     }
 });
+
+tl.to('container', {})
