@@ -1,1 +1,82 @@
-<svg width="1655" height="962" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden"><defs><clipPath id="clip0"><rect x="64" y="17014" width="1655" height="962"/></clipPath></defs><g clip-path="url(#clip0)" transform="translate(-64 -17014)"><rect x="65" y="17015" width="1652" height="959" fill="#FFFFFF"/><g><path d="M760.324 17233.4C936.416 17233.4 1079.17 17376.2 1079.17 17552.3 1079.17 17616.7 1059.66 17679.6 1023.21 17732.7L760.324 17552.3Z" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#4285F4" fill-rule="evenodd"/></g><g><path d="M1023.21 17732.7C923.573 17877.9 725.098 17914.8 579.909 17815.2 434.719 17715.5 397.794 17517 497.435 17371.9 556.898 17285.2 655.237 17233.4 760.324 17233.4L760.324 17552.3Z" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#EA4335" fill-rule="evenodd"/></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1072.32 17397)">93</text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1118.2 17397)">; </text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1141.11 17397)">35%</text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 273.823 17738)">176</text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 342.642 17738)">; </text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 365.559 17738)">65%</text></g><g><text fill="#595959" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="64" transform="matrix(1 0 0 1 624.623 17110)">Qual'è il tuo ruolo?</text></g><g><rect x="1476.5" y="17505.5" width="19.9999" height="21" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#4285F4"/></g><g><text fill="#595959" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1505.38 17528)">Docente</text></g><g><rect x="1476.5" y="17578.5" width="19.9999" height="21" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#EA4335"/></g><g><text fill="#595959" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1505.38 17602)">Studente</text></g><rect x="65.5002" y="17015.5" width="1652" height="959" stroke="#D9D9D9" stroke-width="3.4375" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1655 962">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 6.88px;
+      }
+
+      .cls-1, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-4 {
+        fill: #4285f4;
+      }
+
+      .cls-5 {
+        fill: #404040;
+      }
+
+      .cls-5, .cls-6 {
+        font-size: 41px;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        font-family: ArialMT, Arial;
+        isolation: isolate;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+
+      .cls-8, .cls-9 {
+        stroke-width: 0px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #ea4335;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #595959;
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        font-size: 64px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-8" width="1655" height="962"/>
+    </clipPath>
+  </defs>
+  <g class="cls-10">
+    <g>
+      <rect class="cls-9" x="1" y="1" width="1652" height="959"/>
+      <path class="cls-1" d="M696.32,219.4c176.09,0,318.85,142.8,318.85,318.9,0,64.4-19.51,127.3-55.96,180.4l-262.89-180.4V219.4Z"/>
+      <path class="cls-3" d="M959.21,718.7c-99.64,145.2-298.11,182.1-443.3,82.5-145.19-99.7-182.11-298.2-82.47-443.3,59.46-86.7,157.8-138.5,262.89-138.5v318.9l262.89,180.4Z"/>
+      <text class="cls-5" transform="translate(1008.32 383)"><tspan x="0" y="0">93</tspan></text>
+      <text class="cls-5" transform="translate(1054.2 383)"><tspan x="0" y="0">; </tspan></text>
+      <text class="cls-5" transform="translate(1077.11 383)"><tspan x="0" y="0">35%</tspan></text>
+      <text class="cls-5" transform="translate(209.82 724)"><tspan x="0" y="0">176</tspan></text>
+      <text class="cls-5" transform="translate(278.64 724)"><tspan x="0" y="0">; </tspan></text>
+      <text class="cls-5" transform="translate(301.56 724)"><tspan x="0" y="0">65%</tspan></text>
+      <text class="cls-7" transform="translate(560.62 96)"><tspan x="0" y="0">Qual&apos;è il tuo ruolo?</tspan></text>
+      <rect class="cls-4" x="1412.5" y="491.5" width="20" height="21"/>
+      <text class="cls-6" transform="translate(1441.38 514)"><tspan x="0" y="0">Docente</tspan></text>
+      <rect class="cls-2" x="1412.5" y="564.5" width="20" height="21"/>
+      <text class="cls-6" transform="translate(1441.38 588)"><tspan x="0" y="0">Studente</tspan></text>
+    </g>
+  </g>
+</svg>

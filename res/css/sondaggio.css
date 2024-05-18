@@ -2,11 +2,9 @@
     margin-top: 5%;
     margin-right: 8%;
     margin-left: 8%;
-    /* background-color: black; */
-    /* opacity: 0; */
 }
 
-.blockSX, .blockDX{
+.block{
     background-color: var(--sfondoDiv);
     display: flex;
     height: 300px;
@@ -15,7 +13,7 @@
     border-radius: 20px;
 }
 
-.blockDX{
+.DX{
     margin-left: 20%;
 }
 
@@ -28,17 +26,19 @@
     text-align: justify;
     justify-content: center;
     align-items: center;
+    line-height: 40px;
 }
 
 .grafico {
     width: 35%;
     background-size: contain; /* Questo assicura che l'immagine mantenga le sue proporzioni */
-    background-position: center;
+    background-position: right;
     display: flex;
     flex-wrap: nowrap;
     background-repeat: no-repeat;
     margin: 2%;
     border-radius: 20px;
+    background-color: white;
 }
 
 #img1{
@@ -73,24 +73,71 @@
     background-image: url(../../res/img/grafici/8.svg);
 }
 
-#conclusioni{
+/* #containerConclusioni{
     margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    /* background-color: aqua; */
+    background-color: aqua;
     margin-bottom: 5%;
 }
 
-#conclusioni span{
-    /* display: flex;
-    align-items: center; */
+#containerConclusioni span{
+
     background-color: var(--sfondoDiv2);
     width: 80%;
     padding: 2%;
     border-radius: 20px;
     font-size: 20px;
+    text-align: justify;
+}
+
+#containerConclusioni h2{
+    align-items: center;
+    margin-bottom: 2%;
+    text-align: center;
+    height: 20%;
+} */
+
+#inizio{
+    background-color: var(--sfondoDiv2);
+    border-radius: 20px;
+}
+
+#inizioBlock{
+    height: 300px;
+
+    display: flex;
+    padding-top:  0;
+}
+
+#inizio .text{
+    width: 100%;
+    font-size: 25px;
+    /* padding-top: 0; */
+}
+
+#inizio .grafico{
+    margin-top: 0;
+    width: 40%;
+}
+
+#inizio h1{
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+    height: 20%;
+}
+
+#conclusioni{
+    /* display: flex; */
+    padding: 3%;
+    background-color: var(--sfondoDiv2);
+    border-radius: 20px;
+    /* height: 100%; */
+    margin-bottom: 5%;
 }
 
 #conclusioni h2{
@@ -98,5 +145,15 @@
     margin-bottom: 2%;
     text-align: center;
     height: 20%;
-    /* background-color: beige; */
+    width: 100%;
+    font-size: 30px;
 }
+
+#conclusioni span{
+    height: 80%;
+    width: 100%;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 40px;
+}
+

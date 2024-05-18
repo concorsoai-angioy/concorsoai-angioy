@@ -1,1 +1,113 @@
-<svg width="1654" height="962" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden"><defs><clipPath id="clip0"><rect x="87" y="18843" width="1654" height="962"/></clipPath></defs><g clip-path="url(#clip0)" transform="translate(-87 -18843)"><rect x="88" y="18844" width="1651" height="959" fill="#FFFFFF"/><g><path d="M750.572 19131.6C834.755 19131.6 914.68 19168.6 969.126 19232.8L750.572 19418.1Z" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#4285F4" fill-rule="evenodd"/></g><g><path d="M969.127 19232.8C1053.28 19332 1060.01 19475.5 985.522 19582.2L750.572 19418.1Z" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#EA4335" fill-rule="evenodd"/></g><g><path d="M985.522 19582.2C894.915 19711.9 716.274 19743.7 586.515 19653.1 536.522 19618.2 498.968 19568.2 479.312 19510.5L750.572 19418.1Z" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#FBBC04" fill-rule="evenodd"/></g><g><path d="M479.311 19510.5C428.293 19360.7 508.383 19197.9 658.196 19146.9 687.941 19136.7 719.15 19131.6 750.572 19131.6L750.572 19418.1Z" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#34A853" fill-rule="evenodd"/></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 892.658 19132)">37</text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 938.537 19132)">; </text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 961.454 19132)">14%</text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1066.9 19418)">56</text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1112.78 19418)">; </text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1135.69 19418)">21%</text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 593.939 19759)">94</text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 639.818 19759)">; </text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 662.735 19759)">35%</text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 338.847 19238)">81</text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 384.727 19238)">; </text></g><g><text fill="#404040" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 407.643 19238)">30%</text></g><g><text fill="#595959" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="64" transform="matrix(1 0 0 1 372.402 18939)">Temi che l'intelligenza artificiale possa </text></g><g><text fill="#595959" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="64" transform="matrix(1 0 0 1 569.348 19013)">sostituire i lavori umani?</text></g><g><rect x="1434.5" y="19298.5" width="19.9999" height="20" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#4285F4"/></g><g><text fill="#595959" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1463.54 19321)">Docente Sì</text></g><g><rect x="1434.5" y="19371.5" width="19.9999" height="20" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#EA4335"/></g><g><text fill="#595959" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1463.54 19394)">Docente No</text></g><g><rect x="1434.5" y="19444.5" width="19.9999" height="21" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#FBBC04"/></g><g><text fill="#595959" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1463.54 19467)">Studente Sì</text></g><g><rect x="1434.5" y="19517.5" width="19.9999" height="21" stroke="#FFFFFF" stroke-width="6.875" stroke-linejoin="round" stroke-miterlimit="10" fill="#34A853"/></g><g><text fill="#595959" font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="41" transform="matrix(1 0 0 1 1463.54 19541)">Studente No</text></g><rect x="88.4998" y="18844.5" width="1651" height="959" stroke="#D9D9D9" stroke-width="3.4375" stroke-linejoin="round" stroke-miterlimit="10" fill="none"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1654 962">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-7, .cls-8, .cls-9 {
+        stroke: #fff;
+        stroke-width: 6.9px;
+      }
+
+      .cls-1, .cls-4, .cls-7, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-8 {
+        fill: #4285f4;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fbbc04;
+      }
+
+      .cls-10 {
+        fill: #404040;
+      }
+
+      .cls-10, .cls-11 {
+        font-size: 41px;
+      }
+
+      .cls-10, .cls-11, .cls-12 {
+        font-family: ArialMT, Arial;
+        isolation: isolate;
+      }
+
+      .cls-13, .cls-6 {
+        fill: none;
+      }
+
+      .cls-13, .cls-14 {
+        stroke-width: 0px;
+      }
+
+      .cls-3, .cls-7 {
+        fill: #ea4335;
+      }
+
+      .cls-5, .cls-9 {
+        fill: #34a853;
+      }
+
+      .cls-11, .cls-12 {
+        fill: #595959;
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-6 {
+        display: none;
+        stroke: #d9d9d9;
+        stroke-width: 3.4px;
+      }
+
+      .cls-14 {
+        fill: #fff;
+      }
+
+      .cls-12 {
+        font-size: 64px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-13" width="1654" height="962"/>
+    </clipPath>
+  </defs>
+  <g class="cls-15">
+    <g>
+      <rect class="cls-14" x="1" y="1" width="1651" height="959"/>
+      <path class="cls-1" d="M663.6,288.6c84.2,0,164.1,37,218.6,101.2l-218.6,185.3v-286.5Z"/>
+      <path class="cls-7" d="M882.1,389.8c84.2,99.2,90.9,242.7,16.4,349.4l-234.9-164.1,218.6-185.3Z"/>
+      <path class="cls-4" d="M898.5,739.2c-90.6,129.7-269.2,161.5-399,70.9-50-34.9-87.5-84.9-107.2-142.6l271.3-92.4,234.9,164.1Z"/>
+      <path class="cls-9" d="M392.3,667.5c-51-149.8,29.1-312.6,178.9-363.6,29.7-10.2,61-15.3,92.4-15.3v286.5l-271.3,92.4Z"/>
+      <text class="cls-10" transform="translate(805.7 289)"><tspan x="0" y="0">37</tspan></text>
+      <text class="cls-10" transform="translate(851.5 289)"><tspan x="0" y="0">; </tspan></text>
+      <text class="cls-10" transform="translate(874.5 289)"><tspan x="0" y="0">14%</tspan></text>
+      <text class="cls-10" transform="translate(979.9 575)"><tspan x="0" y="0">56</tspan></text>
+      <text class="cls-10" transform="translate(1025.8 575)"><tspan x="0" y="0">; </tspan></text>
+      <text class="cls-10" transform="translate(1048.7 575)"><tspan x="0" y="0">21%</tspan></text>
+      <text class="cls-10" transform="translate(506.9 916)"><tspan x="0" y="0">94</tspan></text>
+      <text class="cls-10" transform="translate(552.8 916)"><tspan x="0" y="0">; </tspan></text>
+      <text class="cls-10" transform="translate(575.7 916)"><tspan x="0" y="0">35%</tspan></text>
+      <text class="cls-10" transform="translate(251.8 395)"><tspan x="0" y="0">81</tspan></text>
+      <text class="cls-10" transform="translate(297.7 395)"><tspan x="0" y="0">; </tspan></text>
+      <text class="cls-10" transform="translate(320.6 395)"><tspan x="0" y="0">30%</tspan></text>
+      <text class="cls-12" transform="translate(285.4 96)"><tspan x="0" y="0">Temi che l&apos;intelligenza artificiale possa </tspan></text>
+      <text class="cls-12" transform="translate(482.3 170)"><tspan x="0" y="0">sostituire i lavori umani?</tspan></text>
+      <rect class="cls-8" x="1347.5" y="455.5" width="20" height="20"/>
+      <text class="cls-11" transform="translate(1376.5 478)"><tspan x="0" y="0">Docente Sì</tspan></text>
+      <rect class="cls-3" x="1347.5" y="528.5" width="20" height="20"/>
+      <text class="cls-11" transform="translate(1376.5 551)"><tspan x="0" y="0">Docente No</tspan></text>
+      <rect class="cls-2" x="1347.5" y="601.5" width="20" height="21"/>
+      <text class="cls-11" transform="translate(1376.5 624)"><tspan x="0" y="0">Studente Sì</tspan></text>
+      <rect class="cls-5" x="1347.5" y="674.5" width="20" height="21"/>
+      <text class="cls-11" transform="translate(1376.5 698)"><tspan x="0" y="0">Studente No</tspan></text>
+      <rect class="cls-6" x="1.5" y="1.5" width="1651" height="959"/>
+    </g>
+  </g>
+</svg>

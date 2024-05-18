@@ -9,11 +9,11 @@
     <link rel="shortcut icon" href="res/img/logo.svg" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
-    <script src="res/js/gsap.min.js" charset="utf-8"></script>
-    <script src="res/js/ScrollTrigger.min.js"></script>
     <script>
+        gsap.registerPlugin(ScrollTrigger);
+
         let tl = gsap.timeline({
-            scrolltrigger: {
+            scrollTrigger: {
                 trigger: '.prova',
                 start: 'top center',
                 end: 'bottom center',
@@ -21,17 +21,18 @@
                 markers: true
             }
         });
-        
-        tl.to('container', {
-            opacity: 1
+
+        tl.to('.prova', {
+            opacity: 1,
+            duration: 1
         });
         
     </script>
-    <style>
+    <!-- <style>
         .prova{
             opacity: 0;
         }
-    </style>
+    </style> -->
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="res/js/base.js"></script>
     <title>Home Page</title>
@@ -48,81 +49,92 @@
         </nav>
     </header>
     <section>
-        <div class="container prova">
-            <div class="blockSX">
-                <span class="text">
-                    Per verificare i pareri su un argomento così nuovo e divisivo come l’intelligenza artificiale si è
-                    pensato di proporre un’indagine statistica realizzata a scuola a cui hanno partecipato 176 studenti
-                    e 93 docenti.
-                </span>
-                <span class="grafico" id="img1"></span>
+        <div class="container">
+            <div id="inizio">
+                <h1>Indagine statistica</h1>
+                <div id="inizioBlock">
+                    <span class="text">
+                        Per verificare i pareri su un argomento così nuovo e divisivo come l’intelligenza artificiale si è
+                        pensato di proporre un’indagine statistica realizzata a scuola a cui hanno partecipato 176 studenti
+                        e 93 docenti.
+                    </span>
+                    <span class="grafico" id="img1"></span>
+                </div>
             </div>
         </div>
-        <div class="container">
-            <div class="blockDX">
-                <span class="grafico" id="img2"></span>
+         <div class="container">
+            <div class="block SX">
                 <span class="text">
                     Da qui possiamo evincere che la maggior parte degli studenti ha famigliarità con l’argomento mentre
                     quelli che non hanno famigliarità, sia docenti che studenti sono circa lo stesso numero.
                 </span>
+                <span class="grafico" id="img2"></span>
             </div>
         </div>
         <div class="container">
-            <div class="blockSX">
+            <div class="block DX">
+                <span class="grafico" id="img3"></span>
                 <span class="text">
                     Notiamo che l’opinione degli studenti è quasi divisa a metà mentre quella dei docenti propende per
                     una risposta negativa.
                 </span>
-                <span class="grafico" id="img3"></span>
             </div>
         </div>
         <div class="container">
-            <div class="blockDX">
-                <span class="grafico" id="img4"></span>
+            <div class="block SX">
                 <span class="text">
                     Possiamo osservare di nuovo un parere equidistribuito fra gli studenti e notiamo una maggior
                     preoccupazione fra i docenti.
                 </span>
+                <span class="grafico" id="img4"></span>
             </div>
         </div>
         <div class="container">
-            <div class="blockSX">
+            <div class="block DX">
+                <span class="grafico" id="img5"></span>
                 <span class="text">
                     Si rileva che la non conoscenza di queste leggi prevale sia fra i docenti che fra gli studenti.
                 </span>
-                <span class="grafico" id="img5"></span>
             </div>
         </div>
         <div class="container">
-            <div class="blockDX">
-                <span class="grafico" id="img6"></span>
+            <div class="block SX">
                 <span class="text">
                     Entrambi i ruoli mostrano preoccupazione anche se una piccola parte degli studenti non si sente
                     toccata.
                 </span>
+                <span class="grafico" id="img6"></span>
             </div>
         </div>
         <div class="container">
-            <div class="blockSX">    
+            <div class="block DX">    
+                <span class="grafico" id="img7"></span>
                 <span class="text">
                     Questo quesito si basa su un'opinione modulare che va da 1 (pochissimo) a 5 (tantissimo). Notiamo che l’andamento è pressappoco simile fra i ruoli.
                 </span>
-                <span class="grafico" id="img7"></span>
             </div>
         </div>
         <div class="container">
-            <div class="blockDX">    
-                <span class="grafico" id="img8"></span>
+            <div class="block SX">    
                 <span class="text">
                     Si rileva che i docenti hanno espresso una uguale percentuale fra le opzioni 3, 4 e 5. Mentre gli studenti hanno una tendenza più incisiva sul miglioramento della sicurezza informatica tramite l’IA.
                 </span>
+                <span class="grafico" id="img8"></span>
             </div>
         </div>
-        <div id="conclusioni">
+        <!-- <div id="containerConclusioni">
             <span>
                 <h2>Conclusioni</h2>
                 Innanzitutto, l’indagine si è basata su due ruoli non equi quindi visivamente i dati possono trarre in inganno. Alla domanda: “Temi che l'intelligenza artificiale possa sostituire i lavori umani?” è lecito ipotizzare che tanti docenti hanno detto no perché non riescono a vedere l’IA come un possibile sostituto del lavoro che svolgono. Un dato che emerge chiaramente è la disinformazione sull’argomento perché nel quesito: “Sei al corrente della presenza delle leggi Europee sulle AI di questo marzo?” molti non le conoscono, anche se l’IA è un argomento che è diventato popolare anche per chi non è addetto ai lavori.
             </span>
+        </div> -->
+
+        <div class="container">
+            <div id="conclusioni">
+                <h2>Conclusioni</h2>
+                <span>
+                    Innanzitutto, l’indagine si è basata su due ruoli non equi quindi visivamente i dati possono trarre in inganno. Alla domanda: “Temi che l'intelligenza artificiale possa sostituire i lavori umani?” è lecito ipotizzare che tanti docenti hanno detto no perché non riescono a vedere l’IA come un possibile sostituto del lavoro che svolgono. Un dato che emerge chiaramente è la disinformazione sull’argomento perché nel quesito: “Sei al corrente della presenza delle leggi Europee sulle AI di questo marzo?” molti non le conoscono, anche se l’IA è un argomento che è diventato popolare anche per chi non è addetto ai lavori.
+                </span>
         </div>
 
     </section>
