@@ -10,8 +10,8 @@ section{
 
 .benvenuto{
     background-color: var(--sfondoDiv);
-    font-family: "";
-    font-size: 25px;
+    font-family: "Montserrat";
+    font-size: 40px;
     width: 100%;
     margin-bottom: 1%;
     padding: 3%;
@@ -30,6 +30,7 @@ section{
 .benvenutoText{
     width: 90%;
     margin-right: 2%;
+    margin-left: 7%;
     text-align: justify;
 }
 
