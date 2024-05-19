@@ -61,6 +61,17 @@ section{
     padding:7%;
 }
 
+.marcoGif{
+    background-image: url(../../res/img/link-link-cheer.gif);
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    padding:0;
+}
+
 .box1 p{
     text-align: justify;
 }
