@@ -291,7 +291,7 @@ footer{
 .menucontent{
     margin-top: 10px;
     background-color: var(--sfondonav2);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
 }
 
 /* collegamenti all'interno del dropdown */
