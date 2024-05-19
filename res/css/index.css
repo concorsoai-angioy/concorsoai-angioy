@@ -80,9 +80,11 @@ section{
 .box1:hover{
     transform: scale(1.1);
     transition: ease 1s;
+    cursor: pointer;
 }
 
-.box1 h1:hover, .box1:hover{
+.box1:hover h1{
     text-decoration: underline;
     text-decoration-color: var(--dettagli);
 }
+

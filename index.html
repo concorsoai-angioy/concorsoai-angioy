@@ -59,7 +59,7 @@
         </div>
         <div class="zonaBox">
             <div class="container">
-                <span class="box1">
+                <span class="box1" onmouseover="link(0)">
                     <h1>Cos'è l'AI</h1>
                     <!-- <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis et lectus vel euismod.
                             Praesent efficitur, dolor at ultrices facilisis, libero augue molestie libero, non placerat nisl
@@ -73,7 +73,7 @@
                 </span>
             </div>
             <div class="container">
-                <span class="box2" onmouseover="attivaBox()" onmouseleave="disattivaBox()">
+                <span class="box2">
                     <h1>AI Forte e Debole</h1>
                     <p> L'AI si suddivide in <b>Debole</b> e <b>Forte</b>. La prima ha l'obbiettivo di realizzare
                         sistemi che siano in grado di svolgere una o più funzioni umane complesse. Mentre la seconda ha
@@ -204,6 +204,11 @@
             });
         });
 
+        function link(int n){
+            switch(n){
+                case 0: window.open()
+            }
+        }
 
     </script>
 </body>
