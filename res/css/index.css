@@ -61,6 +61,7 @@ section{
     width: 100%;
     padding: 3%;
     border-radius: 20px;
+    transition: ease 1s;
 }
 
 .box2{
@@ -74,4 +75,14 @@ section{
 
 .box1 p, .box2 p{
     text-align: justify;
+}
+
+.box1:hover{
+    transform: scale(1.1);
+    transition: ease 1s;
+}
+
+.box1 h1:hover, .box1:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--dettagli);
 }
