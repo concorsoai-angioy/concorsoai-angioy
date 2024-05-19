@@ -58,6 +58,7 @@ section{
     grid-column: 2 / span 3;
     background-color: orange;
     grid-template-columns: repeat(4, 1fr);
+    display: flex;
 }
 
 .col2 ul {
@@ -78,3 +79,24 @@ b{
     border-radius: 8px;
 }
 
+.boxtesto{
+    width: 66.6%;
+    padding: 3%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.boxtesto h1{
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.boxtesto h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.zonaImg{
+    width: 33.3%;
+    padding: 3%;
+}
