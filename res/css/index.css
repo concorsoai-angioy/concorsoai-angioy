@@ -13,7 +13,7 @@ section{
     font-family: "Montserrat";
     font-size: 40px;
     width: 100%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     padding: 3%;
     display: flex;
     justify-content: center;
@@ -78,12 +78,20 @@ section{
 }
 
 .box1:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: ease 1s;
+}
+
+.box2:hover{
+    transform: scale(1.025);
+    transition: ease 0.5s;
+}
+
+.box1:hover, .box2:hover{
     cursor: pointer;
 }
 
-.box1:hover h1{
+.box1:hover h1, .box2:hover h1{
     text-decoration: underline;
     text-decoration-color: var(--dettagli);
 }
