@@ -19,6 +19,9 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* Ho aggiunto questo padding per il logo esteso*/
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .benvenutoContent{
@@ -35,7 +38,7 @@ section{
 }
 
 .benvenutoImg{
-    background-image: url(../../res/img/ai1.jpg);
+    /* background-image: url(../../res/img/ai1.jpg); */
     width: 35%;
     height: 35%;
 }
@@ -67,4 +70,8 @@ section{
     width: 49%;
     padding: 3%;
     border-radius: 20px;
+}
+
+.box1 p, .box2 p{
+    text-align: justify;
 }

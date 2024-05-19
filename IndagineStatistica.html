@@ -136,7 +136,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
     <script>
         gsap.registerPlugin(ScrollTrigger);
-    
+
         document.querySelectorAll('.block').forEach((block) => {
             let tl = gsap.timeline({
                 scrollTrigger: {
@@ -147,8 +147,8 @@
                     markers: false
                 }
             });
-    
-    
+
+
             tl.fromTo(block, {
                 opacity: 0,
                 scale: 0.5,
@@ -167,7 +167,7 @@
                     duration: 20
                 });
             }
-    
+
             // Controlliamo se il blocco ha anche la classe .DX e modifichiamo marginLeft di conseguenza
             if (block.classList.contains('DX')) {
                 tl.fromTo(block, {
@@ -177,7 +177,7 @@
                     duration: 20
                 });
             }
-    
+
         });
     </script>
 </body>
