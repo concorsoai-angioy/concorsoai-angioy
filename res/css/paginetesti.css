@@ -12,7 +12,7 @@ section{
     margin-bottom: 1%;
 }
 
-.benvenuto{
+/*.benvenuto{
     background-color: var(--sfondoDiv);
     font-family: "Rajdhani";
     font-size: 25px;
@@ -22,7 +22,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 .zonaBox{
     width: 100%;

@@ -215,12 +215,6 @@ nav a:hover{
     background-color: var(--backbutton);
 }
 
-.capbt{
-    color: var(--testo2);
-    background-color: var(--sfondo);
-    border: none;
-}
-
 .back-img{
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -287,16 +281,16 @@ footer{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--sfondonav2);
     border-radius: 15px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
     z-index: 1;
 }
 
-
 .menucontent{
-
+    margin-top: 20px;
+    background-color: var(--sfondonav2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
   /* collegamenti all'interno del dropdown */
