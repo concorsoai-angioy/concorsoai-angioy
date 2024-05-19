@@ -241,7 +241,7 @@ footer h2{
 }
 
 .menu{
-    grid-column: 2 / span 3;
+    grid-column: 2 / span 4;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Crea due colonne */
     gap: 5px; /* Spazio tra i link */
@@ -250,7 +250,7 @@ footer h2{
     margin-left: -2%;
     padding-top: 5%;
     padding-bottom: 5%;
-    font-size: 21px;
+    background-size: cover;
 }
 
 .menu a{
