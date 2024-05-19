@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animazione GSAP</title>
+    <!-- Includi il link al file GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+<body>
+    <div id="myElement" style="width: 100px; height: 100px; background-color: #3498db;"></div>
+
+    <script>
+        // Seleziona l'elemento da animare
+        const myElement = document.getElementById('myElement');
+
+        // Crea un'animazione di sfumatura
+        gsap.to(myElement, {
+            duration: 2, // Durata in secondi
+            backgroundColor: '#e74c3c', // Colore finale
+            ease: 'power2.out', // Funzione di easing
+            repeat: -1, // Ripeti l'animazione all'infinito
+            yoyo: true // Ripeti l'animazione all'indietro
+        });
+    </script>
+</body>
+</html>
+
+</html>
