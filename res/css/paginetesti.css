@@ -46,7 +46,7 @@ section{
     grid-template-columns: repeat(4, 1fr);
 }
 
-.col2 h1, h2{
+.col2 h1, h2, ul{
     grid-column: 2 / 3;
 }
 
