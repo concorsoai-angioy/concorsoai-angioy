@@ -264,7 +264,7 @@ footer{
 /* Dropdown Button */
 .dropbtn{
     font-size: 16px;
-    border: none;
+    border: none; 
 }
 
 .dropbtn:hover {
@@ -272,28 +272,28 @@ footer{
 }
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    text-align: center;
-    position: relative;
-    display: inline-block;
-  }
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Nascosto di Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius: 15px;
+  min-width: 160px;
   
-  /* Dropdown Content (Nascosto di Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    border-radius: 15px;
-    min-width: 160px;
-    
-    z-index: 1;
+  z-index: 1;
 }
 
 .menucontent{
-    margin-top: 20px;
+    margin-top: 5px;
     background-color: var(--sfondonav2);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-  /* collegamenti all'interno del dropdown */
+/* collegamenti all'interno del dropdown */
 .dropdown-content a {
     color: var(--testo);
     padding: 12px 16px;

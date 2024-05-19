@@ -1,3 +1,18 @@
+/* Palette */
+:root {
+    --testo: #E6E6E6;
+    --testo2: #000;
+    --sfondo: #E6E6E6;
+    --sfondoDiv: #001D4A;
+    /* --sfondoDiv2: #00A1E0; */
+    --sfondoDiv2: #0084e7;
+    --titoli: #E6E6E6;
+    --dettagli: #FFB60A;
+    --backbutton: #FFB60A; /*DA CCAMBIARE*/
+    --sfondonav: #040549; /*DA CCAMBIARE*/
+    --sfondonav2: #060f24;
+}
+
 body{
     background-image: url("../../res/img/bkg1.svg");
     background-repeat: no-repeat;
@@ -37,6 +52,19 @@ section{
 .col1{
     grid-column: 1 / 2;
     background-color: aqua;
+    display: grid;
+    grid-template-rows: repeat(40, 1fr);
+    align-items: center;
+}
+
+.col1 a{
+    text-decoration: none;
+    color: var(--testo2);
+}
+
+.col1 h2{
+    grid-column: 1;
+    margin-top: 20px;
 }
 
 .col2{
@@ -68,7 +96,6 @@ section{
 .col3{
     grid-column: 4 span 5;
     background-color: aqua;
-
 }
 
 .col1 .col3{
@@ -96,5 +123,10 @@ section{
     width: 49%;
     padding: 3%;
     border-radius: 20px;
+}
+
+b{
+    border-color: #000005;
+    border-radius: 8px;
 }
 
