@@ -12,6 +12,10 @@ section{
     margin-bottom: 1%;
 }
 
+ul, li{
+    font-weight: bold;
+}
+
 .zonaBox{
     width: 100%;
     display: grid;
