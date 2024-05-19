@@ -58,11 +58,6 @@ ul, li{
     background-color: var(--sfondoDiv2);
 }
 
-/* .col3{
-    grid-column: 4 span 1;
-    background-color: aqua;
-} */
-
 .col1 .col3{
     margin: 10px;
 }

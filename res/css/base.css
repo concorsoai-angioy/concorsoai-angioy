@@ -223,9 +223,9 @@ nav a:hover{
 footer{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(5, 0.5fr);
+    grid-template-rows: repeat(3, 0.5fr) 0.25fr;
     bottom: 0;
-    height: 700px;
+    height: 550px;
     margin-inline: 4%;
     background-color: var(--sfondonav2);
     border-radius: 25px 25px 0 0; 
@@ -233,17 +233,16 @@ footer{
 
 footer h2{
     grid-column: 2 / span 4;
-    grid-row: 2 / span 1;
+    grid-row: 1 / span 1;
     text-wrap: nowrap;
-    align-self: start;
+    align-self: center;
     text-align: center;
     margin-left: -2%;
-    margin-top: 5%;
-
 }
 
 .menu{
     grid-column: 2 / span 4;
+    grid-row: 2 / span 2;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Crea due colonne */
     gap: 5px; /* Spazio tra i link */
@@ -253,7 +252,7 @@ footer h2{
     padding-top: 5%;
     padding-bottom: 5%;
     background-size: cover;
-    grid-row: 3 / span 2;
+    
 }
 
 .menu a{
@@ -271,21 +270,24 @@ footer h2{
 }
 
 .imgEsteso{
-    grid-column: 4 / span 9;
-    grid-row: 2 / span 3; /* Modifica qui per cambiare la posizione della riga */
+    grid-column: 9 / span 3;
+    grid-row: 2 / span 1; /* Modifica qui per cambiare la posizione della riga */
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .imgAiproject{
-    grid-column: 2 / span 2; /* Modifica qui per centrare l'immagine */
-    align-self: center;
-    width: 75%;
+
+    grid-column: 2 / span 1;
+    align-self: start;
+    text-align: end;
+    padding-right: 3%; /* Aggiunto il rientro a sinistra del 5% */
+    height: 75%;
 }
 
 .destit{
     grid-column: 9 / span 3;
-    grid-row: 4 / span 1;
+    grid-row: 3 / span 1;
     align-self: end;
     text-align: end;
     padding-right: 3%; /* Aggiunto il rientro a sinistra del 5% */
@@ -302,6 +304,7 @@ footer h2{
 .dropbtn:hover {
     padding: 20px;
 }
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   text-align: center;
