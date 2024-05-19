@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="res/css/base.css">
         <link rel="stylesheet" href="res/css/paginetesti.css">
         <link rel="shortcut icon" href="res/img/logo.svg" type="image/x-icon">
+        <script src="res/js/paginatesti.js"></script>
         <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
         <script src="res/js/base.js"></script>  
         <title>Home Page</title>
@@ -18,8 +19,8 @@
                     <a href="#" class="dropbtn, esplorabt">Esplora</a>
                     <div class="dropdown-content">
                         <div class="menucontent">
-                            <a href="cosaeAI.html">1. Cosa é l' AI?</a>
-                            <a href="AiforteDebole.html">2. AI FORTE </a>
+                            <a href="cosaeAI.html">1. Cos'é l' AI?</a>
+                            <a href="AiforteDebole.html">2. AI forte e debole </a>
                             <a href="retiNeurali.html">3. Reti neurali</a>
                             <a href="Sicurezza.html">4. La sicurezza dell'AI</a>
                             <a href="VantaggiSvantaggi.html">5. I vantaggi e gli svantaggi dell'AI</a>
@@ -49,52 +50,65 @@
                     <a href="Paragrafo $">Paragrafo</a>
                 </div>
                 <div class="col2">
-                    <h1>
-                        Che cos’è l’intelligenza artificiale
-                    </h1>
-                    <p>L’IA è l’abilità di una macchina di mostrare capacità umane quali il ragionamento e la creatività. È un campo delle scienze umane dedicato alla risoluzione dei 
-                        problemi cognitivi associati all’intelligenza umana. 
-                        L’IA può ampliare tali conoscenze per risolvere nuovi problemi in modi simili a quelli umani, può rispondere in modo significativo alle comunicazioni umane, 
-                        creare immagini e testi originali e prendere decisioni basate su input in tempo reale.
-                        È necessario effettuare una distinzione tra IA Debole e IA Forte.
-                        La prima si basa sul “come se”, cioè la macchina agisce e pensa come se avesse un cervello. 
-                        Questa affermazione è supportata dal gruppo di ricerca nominato Intelligenza Artificiale Generale, che studia sistemi in grado di replicare la mente umana. 
-                        L’obiettivo dell’IA Debole è quello di realizzare sistemi che siano in grado di svolgere una o più funzioni umane complesse 
-                        (per esempio la traduzione automatica di testi) e non quello di realizzare macchine che abbiano un’intelligenza umana. 
-                        Possiamo dire che essa è concentrata su compiti specifici e ben definiti e risulta uno strumento valido ed eccellente nelle attivutà per cui è stata addestrata 
-                        (pensiamo alle traduzioni automatiche, al riconoscimento facciale o al gioco degli scacchi). 
-                        Essa funziona tramite l’uso di algoritmi e set mirati, ma non possiede una comprensione generale del mondo e non è in grado di applicare le sue capacità a 
-                        compiti diversi da quelli per cui è stata progettata.
-                        
-                        Per l’IA Forte, se la macchina viene programmata in maniera opportuna, diventa essa stessa una mente, con una capacità cognitiva non distinguibile da quella umana.
-                        L’obiettivo dell’IA Forte, infatti,  è quello di creare sistemi che possano agire con successo in alcune funzioni complesse umane. 
-                        L’idea che sta dietro questa teoria è che ci sia la possibilità di realizzare una macchina che sia in grado di simulare il comportamento umano, 
-                        con l’idea di eguagliarlo nel pensiero e nella coscienza, che riesca a svolgere qualsiasi compito intellettuale che un essere umano può fare. 
-                        L’IA Forte dovrebbe possedere una comprensione profonda del mondo, dovrebbe poter ragionare, apprendere e adattarsi in modo autonomo.</p>
-                    <h2>Le origini dell’IA</h2>
-                    <p>
-                        Il termine "intelligenza artificiale" venne ufficialmente coniato nel 1955 da John McCarthy, ma l'idea di creare una macchina in grado 
-                        di simulare il cervello umano risale già al primo secolo a.C. 
-                        Nella conferenza del 1996, la "Darthmouth Summer Research Project on Artificial Intelligence" venne inventato il deep 
-                        learning (campo di ricerca dell'apprendimento automatico e dell'intelligenza artificiale) e il machine learning. 
-                        Quest'ultimo è un sottoinsieme dell'intelligenza artificiale: si occupa di creare sistemi che, con dati offerti da noi, 
-                        migliora la propria performance e apprende in modo automatico.
-                    </p>
-                <img src="res/img/logo.svg" class="img">
-            </div>
-                <div class="col3">a</div>
+                    <div class="boxtesto">
+                        <h1>
+                            Che cos’è l’intelligenza artificiale
+                        </h1>
+                        <p>L’IA è l’abilità di una macchina di mostrare capacità umane quali il ragionamento e la creatività. È un campo delle scienze umane dedicato alla risoluzione dei 
+                            problemi cognitivi associati all’intelligenza umana. 
+                            L’IA può ampliare tali conoscenze per risolvere nuovi problemi in modi simili a quelli umani, può rispondere in modo significativo alle comunicazioni umane, 
+                            creare immagini e testi originali e prendere decisioni basate su input in tempo reale.
+                            È necessario effettuare una distinzione tra IA Debole e IA Forte.
+                            La prima si basa sul “come se”, cioè la macchina agisce e pensa come se avesse un cervello. 
+                            Questa affermazione è supportata dal gruppo di ricerca nominato Intelligenza Artificiale Generale, che studia sistemi in grado di replicare la mente umana. 
+                            L’obiettivo dell’IA Debole è quello di realizzare sistemi che siano in grado di svolgere una o più funzioni umane complesse 
+                            (per esempio la traduzione automatica di testi) e non quello di realizzare macchine che abbiano un’intelligenza umana. 
+                            Possiamo dire che essa è concentrata su compiti specifici e ben definiti e risulta uno strumento valido ed eccellente nelle attivutà per cui è stata addestrata 
+                            (pensiamo alle traduzioni automatiche, al riconoscimento facciale o al gioco degli scacchi). 
+                            Essa funziona tramite l’uso di algoritmi e set mirati, ma non possiede una comprensione generale del mondo e non è in grado di applicare le sue capacità a 
+                            compiti diversi da quelli per cui è stata progettata.
+                            
+                            Per l’IA Forte, se la macchina viene programmata in maniera opportuna, diventa essa stessa una mente, con una capacità cognitiva non distinguibile da quella umana.
+                            L’obiettivo dell’IA Forte, infatti,  è quello di creare sistemi che possano agire con successo in alcune funzioni complesse umane. 
+                            L’idea che sta dietro questa teoria è che ci sia la possibilità di realizzare una macchina che sia in grado di simulare il comportamento umano, 
+                            con l’idea di eguagliarlo nel pensiero e nella coscienza, che riesca a svolgere qualsiasi compito intellettuale che un essere umano può fare. 
+                            L’IA Forte dovrebbe possedere una comprensione profonda del mondo, dovrebbe poter ragionare, apprendere e adattarsi in modo autonomo.</p>
+                        <h2>Le origini dell’IA</h2>
+                        <p>
+                            Il termine "intelligenza artificiale" venne ufficialmente coniato nel 1955 da John McCarthy, ma l'idea di creare una macchina in grado 
+                            di simulare il cervello umano risale già al primo secolo a.C. 
+                            Nella conferenza del 1996, la "Darthmouth Summer Research Project on Artificial Intelligence" venne inventato il deep 
+                            learning (campo di ricerca dell'apprendimento automatico e dell'intelligenza artificiale) e il machine learning. 
+                            Quest'ultimo è un sottoinsieme dell'intelligenza artificiale: si occupa di creare sistemi che, con dati offerti da noi, 
+                            migliora la propria performance e apprende in modo automatico.
+                        </p>
+                    </div>
+                    <img src="res/img/logo.svg" class="img">
+                </div>
+                <div class="col3">
+
+                </div>
             </div>
         </section>
         <footer>
+            <h2>Collegamenti alle altre pagine</h2>
             <div class="menu">
-                <a href="">prova1</a>
-                <a href="">prova2</a>
-                <a href="">prova3</a>
-                <a href="">prova4</a>
+                <a href="cosaeAI.html">1. Cos'é l' AI?</a>
+                <a href="AiforteDebole.html">2. AI forte e debole</a>
+                <a href="retiNeurali.html">3. Reti neurali</a>
+                <a href="Sicurezza.html">4. La sicurezza dell'AI</a>
+                <a href="VantaggiSvantaggi.html">5. I vantaggi e gli svantaggi dell'AI</a>
+                <a href="AinelleScuole.html">6. L'AI nelle scuole</a>
             </div>
-
-            <a href="index.html" class="logo-footer"><img src="res/img/logo.svg" class="logo-footer-img"></a>
-
+            
+            <div class="menu2">
+                <a href="AIEtica.html">7. Ai e l'etica</a>
+                <a href="uomoMacchina.html">8. Differenza tra uomo e macchina</a>
+                <a href="sociale.html">9. L'impatto sociale delle macchine</a>
+                <a href="responsabilita.html">10. Responsabilitá delle macchine</a>
+                <a href="fineprogresso.html">11. La fine del progresso?</a>
+                <a href="IndagineStatistica.html">12. L'indagine statistica</a>
+            </div>
             <div class="destit">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsum veritatis</p>
             </div>

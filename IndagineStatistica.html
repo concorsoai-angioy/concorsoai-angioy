@@ -177,22 +177,19 @@
                 duration: 20
             });
 
-            // Controlliamo se il blocco ha la classe .SX e aggiungiamo marginLeft di conseguenza
             if (block.classList.contains('SX')) {
                 tl.fromTo(block, {
-                    marginLeft: '5%' // Impostiamo marginLeft a 15% di default per .DX
+                    marginLeft: '5%' 
                 }, {
-                    marginLeft: '15%', // Cambiamo marginLeft a 5% per .DX durante l'animazione
+                    marginLeft: '15%', 
                     duration: 20
                 });
             }
-
-            // Controlliamo se il blocco ha anche la classe .DX e modifichiamo marginLeft di conseguenza
             if (block.classList.contains('DX')) {
                 tl.fromTo(block, {
-                    marginLeft: '15%' // Impostiamo marginLeft a 15% di default per .DX
+                    marginLeft: '15%' 
                 }, {
-                    marginLeft: '5%', // Cambiamo marginLeft a 5% per .DX durante l'animazione
+                    marginLeft: '5%', 
                     duration: 20
                 });
             }
