@@ -28,10 +28,10 @@
      inkscape:document-units="mm"
      inkscape:zoom="2.8284271"
      inkscape:cx="35.355339"
-     inkscape:cy="115.08163"
+     inkscape:cy="30.228815"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1" />
@@ -74,7 +74,7 @@
      sodipodi:nodetypes="ssssssscccssssccsssscssscsscscssscscs" />
   <path
      id="text1-7"
-     style="font-weight:bold;font-size:25.4px;font-family:Rajdhani;-inkscape-font-specification:'Rajdhani, Bold';text-align:center;text-anchor:middle;fill:#0084e7;fill-opacity:1;fill-rule:evenodd;stroke-width:3.94722;stroke-linecap:square;stroke-miterlimit:0;stroke-dashoffset:1607.84"
+     style="font-weight:bold;font-size:25.4px;font-family:Rajdhani;-inkscape-font-specification:'Rajdhani, Bold';text-align:center;text-anchor:middle;fill:#eaeaee;fill-opacity:1;fill-rule:evenodd;stroke-width:3.94722;stroke-linecap:square;stroke-miterlimit:0;stroke-dashoffset:1607.84"
      d="M 16.647046,6.1639648 V 7.6910034 H 13.06328 c -0.413679,0 -0.620626,0.2069504 -0.620634,0.620634 v 2.0386356 c -9e-6,0.393986 0.206955,0.591178 0.620634,0.591178 h 1.933216 0.40721 c 0.393986,0 0.591178,0.197194 0.591178,0.591178 v 1.283126 0.35295 0.17415 c 0,0.393982 0.196676,0.591178 0.590662,0.591178 h 0.377755 c 0.393985,0 0.590661,0.186927 0.590661,0.561206 v 2.600358 c 0,0.393985 -0.196676,0.591179 -0.590661,0.591179 h -0.377755 c -0.393984,0 -0.590662,0.196675 -0.590662,0.590661 v 0.407727 3.455087 c 0,0.413666 0.206435,0.620634 0.620118,0.620634 h 0.257865 0.40721 c 0.393987,0 0.591179,0.197193 0.591179,0.591178 v 0.5271 0.167431 c 0,0.393987 0.196676,0.590662 0.590661,0.590662 h 2.570903 c 0.393986,0 0.591178,-0.196675 0.591178,-0.590662 v -2.600358 c 0,-0.374283 -0.197192,-0.561723 -0.591178,-0.561723 H 19.747632 V 19.91403 19.38693 16.116329 15.708602 8.3116374 8.2821818 c 0,-0.2166908 -0.03955,-0.3645839 -0.118339,-0.4433838 -0.0788,-0.0985 -0.246202,-0.1477946 -0.502295,-0.1477946 h -0.03256 V 6.1639648 H 18.317224 V 7.6910034 H 17.424255 V 6.1639648 Z"
      sodipodi:nodetypes="ccsccscssccsssssssscsscsscssssssccccccscsccccccc"
      inkscape:label="text1-7" />
