@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="res/css/base.css">
         <link rel="stylesheet" href="res/css/paginetesti.css">
         <link rel="shortcut icon" href="res/img/logo.svg" type="image/x-icon">
+        <script src="res/js/paginatesti.js"></script>
         <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
         <script src="res/js/base.js"></script>  
         <title>Home Page</title>
@@ -16,10 +17,12 @@
                 <a href="index3.html" class="logo"><img src="res/img/logo.svg" class="logoimg"></a>
                 <div class="dropdown">
                     <a href="#" class="dropbtn, esplorabt">Esplora</a>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                    <div class="menucontent">
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
                     </div>
                 </div>
                 <a href="">Chi siamo</a>
@@ -30,10 +33,10 @@
         <section>
             <div class="zonaBox">
                 <div class="col1">
-                    <div class="dropdown">
-                        <button class="dropbtn, capbt">Capitolo 1</button>
-                        <div id="myDropdown" class="dropdown-content">
-                            <a href="#">Link 1</a>
+                    <div class="dropdownclick">
+                        <button onclick="myFunction('myDropdownclick1')" class="dropbtnclick">Capitolo 1</button>
+                        <div id="myDropdownclick1" class="dropdown-content-click">
+                            <a href="index.html">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
                         </div>
