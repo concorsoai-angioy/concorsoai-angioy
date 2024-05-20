@@ -167,7 +167,7 @@ body{
 }
 
 header{
-    background-color: var(--sfondoDiv);
+    background-color: var(--sfondonav);
     height: 80px;
     width: 80%;
     margin-inline: 10%;
