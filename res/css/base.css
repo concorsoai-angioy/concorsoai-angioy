@@ -141,7 +141,8 @@ body{
     color: var(--testo);
     font-family: Roboto;
     background-image: url("../../res/img/bkg1.svg");
-    background-size: cover; 
+    background-size: cover;
+    background-repeat: repeat-y;
     background-position: center;
     background-attachment: fixed;
     image-rendering:auto;
