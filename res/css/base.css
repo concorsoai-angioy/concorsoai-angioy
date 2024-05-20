@@ -117,14 +117,32 @@
     --testo2: #000;
     --sfondo: #E6E6E6;
     --sfondoDiv: #001D4A;
-    /* --sfondoDiv2: #00A1E0; */
     --sfondoDiv2: #0084e7;
+    --sfondoTestoFooter: #E6E6E6; 
+    --testoFooter: #0084e7;
     --titoli: #E6E6E6;
     --dettagli: #FFB60A;
-    --backbutton: #FFB60A; /*DA CCAMBIARE*/
-    --sfondonav: #040549; /*DA CCAMBIARE*/
+    --backbutton: #FFB60A; 
+    --sfondonav: #040549; 
     --sfondonav2: #060f24;
 }
+
+
+/* :root { PALETTE DARK MODE
+    --testo: #E6E6E6;
+    --testo2: #000;
+    --sfondo: #1B262C;
+    --sfondoDiv: #001D4A;
+    --sfondoDiv2: #0F4C75;
+    --sfondoTestoFooter: #000;
+    --testoFooter: #E6E6E6;
+    --titoli: #E6E6E6;
+    --dettagli: #FFB60A;
+    --backbutton: #FFB60A; 
+    --sfondonav: #040549; 
+    --sfondonav2: #060f24;
+} */
+
 
 /*reset delle misure per i browser*/
 *{
@@ -248,7 +266,7 @@ footer h2{
     display: grid;
     grid-template-rows: repeat(6, 1fr); /* Crea due colonne */
     grid-template-columns: repeat(2, 1fr);
-    background-color: var(--testo);
+    background-color: var(--sfondoTestoFooter);
     border-radius: 25px;
     padding-inline: 3%;
     padding-top: 3%;
@@ -260,14 +278,13 @@ footer h2{
 
 .menu a{
     text-decoration: none;
-    color: var(--testo2);
+    color: var(--testoFooter);
     text-align: left;
     align-self: center;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
-    color: var(--sfondoDiv2);
     font-weight: bold;
 }
 
