@@ -144,7 +144,3 @@ p a, .bibliografia a {
 p a:hover, .bibliografia a:hover {
     text-decoration: underline;
 }
-
-.ref {
-    font-size: 75%;
-}
