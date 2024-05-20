@@ -90,7 +90,7 @@ section {
     text-align: justify;
     font-size: 20px;
     color: var(--testo2);
-    line-height: 190%;
+    line-height: 250%;
 }
 
 .boxtesto h1 {
@@ -110,10 +110,10 @@ section {
 }
 
 .boxtesto b {
-    color: var(--sfondoDiv2);
-    /* padding: 2px 5px;
+    color: var(--testo);
+    padding: 2px 5px;
     border-radius: 5px;
-    border: solid 1px; */
+    background-color: var(--sfondoDiv2);
 }
 
 h1 {
