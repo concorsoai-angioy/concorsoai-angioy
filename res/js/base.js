@@ -8,12 +8,11 @@ function bgscroll() {
 }
 window.onload = function () {
     setInterval("bgscroll()", scrollSpeed);
+    risolviProblemi();
     applyTheme();
 };
 
 var settings = JSON.parse(localStorage.getItem("settings") || "{}");
-
-applyTheme()
 
 function toggleTheme() {
     changeSetting("isDark", !settings.isDark)
@@ -51,18 +50,10 @@ function applyTheme() {
     document.documentElement.style.setProperty('--sfondonav', palette[10]);
     document.documentElement.style.setProperty('--sfondonav2', palette[11]);
 
-    var checkbox = document.getElementById("checkbox");
-    checkbox.checked = settings.isDark;
+
 }
 
-
-const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-const currentTheme = localStorage.getItem('theme');
-
-if (currentTheme) {
-    document.documentElement.setAttribute('data-theme', currentTheme);
-
-    if (currentTheme === 'dark') {
-        toggleSwitch.checked = true;
-    }
+function risolviProblemi(){
+    var checkbox = document.getElementById("checkbox");
+    checkbox.checked = settings.isDark;
 }
