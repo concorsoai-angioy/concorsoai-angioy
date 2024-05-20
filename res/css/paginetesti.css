@@ -127,7 +127,8 @@ h2 {
 .bibliografia {
     display: block;
     border-top: solid;
-    margin-top: 60px;
+    margin-top: 80px;
+    padding-top: 40px;
 }
 
 p a, .link {
@@ -136,7 +137,8 @@ p a, .link {
 }
 
 .link:target {
-    background-color: var(--dettagli);
+    background-color: var(--sfondoDiv2);
+    color: var(--testo);
     border-radius: 5px;
     padding: 2px 5px;
 }
