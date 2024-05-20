@@ -222,6 +222,26 @@
                 case 12: window.location.href = "IndagineStatistica.html";
             }
         }
+
+        let tx = gsap.timeline({
+                scrollTrigger: {
+                    trigger: 'header',
+                    start: 'bottom 100%',
+                    end: 'top 50%',
+                    scrub: true,
+                    markers: true
+                }
+            });
+            
+        tx.fromto(header, {
+            width:'100%',
+            marginInline:'0%',
+            borderRadius:'0px'
+        },{
+            width:'80%',
+            marginInline:'10%',
+            borderRadius:'300px'
+        });
     </script>
 </body>
 
