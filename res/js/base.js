@@ -8,6 +8,7 @@ function bgscroll() {
 }
 window.onload = function() {
     setInterval("bgscroll()", scrollSpeed);
+    applyTheme();
 };
 
 var settings = JSON.parse(localStorage.getItem("settings") || "{}");
