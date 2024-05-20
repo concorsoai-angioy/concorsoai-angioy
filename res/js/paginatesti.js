@@ -20,17 +20,17 @@ window.onclick = function (event) {
 
 gsap.registerPlugin(ScrollTrigger);
 
-let tx = gsap.timeline({
+let tz = gsap.timeline({
   scrollTrigger: {
-      trigger: '.col1',
-      start: 'top 0%',
-      end: 'bottom 2%',
-      scrub: true,
-      markers: true
+    trigger: 'col1',
+    start: 'top 0%',
+    end: 'bottom 2%',
+    scrub: true,
+    markers: true
   }
 });
 
-tx.fromTo('header', {
+tz.fromTo('col1', {
   width: '100%',
   marginInline: '0%',
   borderRadius: '0px',
