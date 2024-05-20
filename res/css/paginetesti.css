@@ -6,9 +6,20 @@ body {
     background-size: cover;
 }
 
+header{
+    background-color: var(--sfondoDiv);
+    height: 80px;
+    width: 80%;
+    margin-inline: 10%;
+    border-radius: 300px;
+    position: fixed; /* Imposta la posizione fissa */
+    top: 0; /* Fissa la navbar in alto */
+    z-index: 999; /* Imposta un valore alto per sovrapporre altri elementi */;
+}
+
 section {
     width: 100%;
-    margin-top: 1%;
+    margin-top: 100px;
     /* height: 500px; */
     margin-bottom: 1%;
 }
