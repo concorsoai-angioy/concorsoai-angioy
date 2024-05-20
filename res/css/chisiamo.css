@@ -41,8 +41,8 @@ section{
     width: 100%;
     padding: 3%;
     border-radius: 20px;
-    transition: ease 1s;
     min-width: 800px;
+    transition: ease 1s;
 }
 
 .zonaText{
@@ -59,6 +59,7 @@ section{
     background-repeat: no-repeat;
     border-radius: 20px;
     padding:7%;
+    transition: ease 1s;
 }
 
 .marcoGif{

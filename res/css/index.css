@@ -71,6 +71,7 @@ section{
     width: 49%;
     padding: 3%;
     border-radius: 20px;
+    transition: ease 1s;
 }
 
 .box1 p, .box2 p{
