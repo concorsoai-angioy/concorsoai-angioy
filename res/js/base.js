@@ -1,11 +1,12 @@
 //movimento sfondo
-var scrollSpeed = 20;
+var scrollSpeed = 60;
 var current = 0;
 var direction = 'w';
 function bgscroll() {
-    current -= 1;
-    $('body').css("backgroundPosition", (direction == 'h') ? current + "px 0" : "0 " + current + "px");
+     current -= 1;
+     $('body').css("backgroundPosition", (direction == 'h') ? current + "px 0" : "0 " + current + "px");
 }
+
 window.onload = function () {
     setInterval("bgscroll()", scrollSpeed);
     risolviProblemi();

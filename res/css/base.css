@@ -162,7 +162,7 @@ body {
     color: var(--testo);
     font-family: Roboto;
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     background-position: center;
     background-attachment: fixed;
     image-rendering: auto;
