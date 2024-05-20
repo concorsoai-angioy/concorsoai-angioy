@@ -152,14 +152,14 @@ header{
     height: 70px;
     width: 80%;
     margin-inline: 10%;
-    border-radius: 48px;
     margin-top: 1%;
+    border-radius: 300px;
 }
 
 nav{
     height: 100%;
+    display: grid; 
     align-items: center;
-    display: grid;
     grid-template-columns: repeat(13, 1fr);
     gap: 20px;
 }
@@ -200,7 +200,7 @@ nav a:hover{
     color: var(--testo);
     font-weight: bold;
     border: none;
-    border-radius: 50px;
+    border-radius: 25px;
     cursor: pointer;
     transition: all .3s ease;
 }
@@ -208,7 +208,7 @@ nav a:hover{
 .esplorabt{
     padding: 10%;
     border: solid 3px var(--backbutton);
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 .esplorabt:hover{
@@ -269,7 +269,7 @@ footer h2{
 
 .menu a:hover{
     background-color: var(--backbutton);
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 .imgEsteso{
@@ -319,7 +319,7 @@ footer h2{
 .dropdown-content{
   display: none;
   position: absolute;
-  border-radius: 15px;
+  border-radius: 25px;
   min-width:400px;
   z-index: 1;
 }
@@ -344,7 +344,7 @@ footer h2{
 .dropdown:hover .dropdown-content {display: block; text-align: left;}
   
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: var(--backbutton); border-radius: 10px;}
+.dropdown:hover .dropbtn {background-color: var(--backbutton); border-radius: 25px;}
 
 /*---------------------------------------------*/
 
