@@ -167,11 +167,15 @@ body{
 }
 
 header{
+<<<<<<< HEAD
     background-color: var(--sfondonav);
+=======
+    margin-top: 1%;
+    background-color: var(--sfondoDiv);
+>>>>>>> 627ebd2 (.)
     height: 80px;
     width: 80%;
     margin-inline: 10%;
-    margin-top: 1%;
     border-radius: 300px;
 }
 
@@ -245,9 +249,9 @@ footer{
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 0.5fr) 0.25fr;
     bottom: 0;
-    height: 550px;
+    height: 600px;
     margin-inline: 4%;
-    background-color: var(--sfondonav);
+    background-color: var(--sfondoDiv);
     border-radius: 25px 25px 0 0; 
 }
 
