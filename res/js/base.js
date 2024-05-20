@@ -10,25 +10,21 @@ window.onload = function() {
     setInterval("bgscroll()", scrollSpeed);
 };
 
-if(sessionStorage.getItem("isDark") == null){
-    var isDark = false;
-}else{
-    var isDark = session.getItem("isDark");
-}
-
-function isDarkMode(){
-    return sessionStorage.getItem("isDark");
+var isDark = localStorage.getItem("isDark");
+console.log(isDark)
+if(isDark){
+    darkmode();
 }
 
 function darkmode(){
-    if(isDarkMode()){
+    if(!isDark){
         var palette = ["#E6E6E6", "#E6E6E6", "#1B262C",  "#001D4A",  "#1c6495",  "#1B262C",  "#E6E6E6",  "#E6E6E6",  "#FFB60A",  "#FFB60A", "#040549", "#060f24"];
     }else{
         var palette = ["#E6E6E6", "#000", "#E6E6E6",  "#001D4A",  "#0084e7",  "#E6E6E6",  "#0084e7",  "#E6E6E6",  "#FFB60A", "#FFB60A", "#040549", "#060f24"];
     }
 
-    // console.log(isDarkMode())
-    // sessionStorage.setItem("isDark", !sessionStorage.getItem("isDark"));
+    isDark = !isDark;
+    localStorage.setItem("isDark", isDark);
 
     document.documentElement.style.setProperty('--testo', palette[0]);
     document.documentElement.style.setProperty('--testo2', palette[1]);
