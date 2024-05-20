@@ -254,6 +254,7 @@ footer h2{
     padding-bottom: 3%;
     background-size: cover;
     font-size: 20px;
+    aspect-ratio: 16/9;
 }
 
 .menu a{
