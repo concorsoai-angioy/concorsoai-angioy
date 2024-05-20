@@ -100,11 +100,13 @@ section {
 }
 
 .boxtesto b {
-    color: var(--sfondoDiv2);
+    color: var(--sfondoDiv);
+    /* padding: 2px 5px;
+    border-radius: 5px;
+    border: solid 1px; */
 }
 
-h1,
-h2 {
+h1, h2 {
     color: var(--dettagli)
 }
 
@@ -114,10 +116,15 @@ h2 {
     margin-top: 60px;
 }
 
-p a,
-.bibliografia a {
-    color: var(--dettagli);
+p a, .link {
+    color: var(--sfondoDiv2);
     text-decoration: none;
+}
+
+.link:target {
+    background-color: var(--dettagli);
+    border-radius: 5px;
+    padding: 2px 5px;
 }
 
 p a:hover,
