@@ -37,6 +37,10 @@ section{
     text-align: justify;
 }
 
+.benvenutoText h3{
+    text-wrap: no-wrap;
+}
+
 .benvenutoImg{
     /* background-image: url(../../res/img/ai1.jpg); */
     width: 35%;
