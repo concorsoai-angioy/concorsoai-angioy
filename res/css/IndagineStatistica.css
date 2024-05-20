@@ -1,10 +1,10 @@
-.container{
+.container {
     margin-top: 5%;
     margin-right: 8%;
     margin-left: 8%;
 }
 
-.block{
+.block {
     background-color: var(--sfondoDiv);
     display: flex;
     height: 300px;
@@ -13,11 +13,11 @@
     border-radius: 20px;
 }
 
-.DX{
+.DX {
     margin-left: 20%;
 }
 
-.text{
+.text {
     display: flex;
     padding: 5%;
     width: 65%;
@@ -31,7 +31,8 @@
 
 .grafico {
     width: 35%;
-    background-size: contain; /* Questo assicura che l'immagine mantenga le sue proporzioni */
+    background-size: contain;
+    /* Questo assicura che l'immagine mantenga le sue proporzioni */
     background-position: right;
     display: flex;
     flex-wrap: nowrap;
@@ -41,61 +42,61 @@
     background-color: white;
 }
 
-#img1{
+#img1 {
     background-image: url(../../res/img/grafici/1.svg);
 }
 
-#img2{
+#img2 {
     background-image: url(../../res/img/grafici/2.svg);
 }
 
-#img3{
+#img3 {
     background-image: url(../../res/img/grafici/3.svg);
 }
 
-#img4{
+#img4 {
     background-image: url(../../res/img/grafici/4.svg);
 }
 
-#img5{
+#img5 {
     background-image: url(../../res/img/grafici/5.svg);
 }
 
-#img6{
+#img6 {
     background-image: url(../../res/img/grafici/6.svg);
 }
 
-#img7{
+#img7 {
     background-image: url(../../res/img/grafici/7.svg);
 }
 
-#img8{
+#img8 {
     background-image: url(../../res/img/grafici/8.svg);
 }
 
-#inizio{
+#inizio {
     background-color: var(--sfondoDiv2);
     border-radius: 20px;
 }
 
-#inizioBlock{
+#inizioBlock {
     height: 300px;
 
     display: flex;
-    padding-top:  0;
+    padding-top: 0;
 }
 
-#inizio .text{
+#inizio .text {
     width: 100%;
     font-size: 25px;
 }
 
-#inizio .grafico{
+#inizio .grafico {
     margin-top: 0;
     width: 40%;
 }
 
-#inizio h1{
+#inizio h1 {
     font-size: 35px;
     width: 100%;
     text-align: center;
@@ -103,14 +104,14 @@
     height: 20%;
 }
 
-#conclusioni{
+#conclusioni {
     padding: 3%;
     background-color: var(--sfondoDiv2);
     border-radius: 20px;
     margin-bottom: 5%;
 }
 
-#conclusioni h2{
+#conclusioni h2 {
     align-items: center;
     margin-bottom: 2%;
     text-align: center;
@@ -119,11 +120,10 @@
     font-size: 30px;
 }
 
-#conclusioni span{
+#conclusioni span {
     height: 80%;
     width: 100%;
     font-size: 25px;
     text-align: justify;
     line-height: 40px;
 }
-

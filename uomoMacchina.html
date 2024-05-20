@@ -1,181 +1,233 @@
 <!DOCTYPE html>
 <html lang="it">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="res/css/base.css">
-        <link rel="stylesheet" href="res/css/paginetesti.css">
-        <link rel="shortcut icon" href="res/img/logo.svg" type="image/x-icon">
-        <script src="res/js/paginatesti.js"></script>
-        <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="res/js/base.js"></script>  
-        <title>Differenza tra uomo e macchina</title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="index.html" class="logo"><img src="res/img/logo.svg" class="logoimg"></a>
-                <div class="dropdown">
-                    <a href="#" class="dropbtn, esplorabt">Esplora</a>
-                    <div class="dropdown-content">
-                        <div class="menucontent">
-                            <a href="cosaeAI.html">1.  Cos'é l' AI?</a>
-                            <a href="AiforteDebole.html">2.  AI forte e debole </a>
-                            <a href="retiNeurali.html">3.  Reti neurali</a>
-                            <a href="Sicurezza.html">4.  La sicurezza dell'AI</a>
-                            <a href="VantaggiSvantaggi.html">5.  I vantaggi e gli svantaggi dell'AI</a>
-                            <a href="AinelleScuole.html">6.  L'AI nelle scuole</a>
-                            <a href="AIEtica.html">7.  Ai e l'etica</a>
-                            <a href="uomoMacchina.html">8.  Differenza tra uomo e macchina</a>
-                            <a href="sociale.html">9.  L'impatto sociale delle macchine</a>
-                            <a href="responsabilita.html">10. Responsabilitá delle macchine</a>
-                            <a href="autogestione.html">11. L'autogestione dell'AI</a>
-                            <a href="IndagineStatistica.html">12. L'indagine statistica</a>
-                        </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="res/css/base.css">
+    <link rel="stylesheet" href="res/css/paginetesti.css">
+    <link rel="shortcut icon" href="res/img/logo.svg" type="image/x-icon">
+    <script src="res/js/paginatesti.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="res/js/base.js"></script>
+    <title>Differenza tra uomo e macchina</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><img src="res/img/logo.svg" class="logoimg"></a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn, esplorabt">Esplora</a>
+                <div class="dropdown-content">
+                    <div class="menucontent">
+                        <a href="cosaeAI.html">1. Cos'è l' AI?</a>
+                        <a href="AiforteDebole.html">2. AI Forte e Debole </a>
+                        <a href="retiNeurali.html">3. Reti neurali</a>
+                        <a href="Sicurezza.html">4. La sicurezza dell'AI</a>
+                        <a href="VantaggiSvantaggi.html">5. I vantaggi e gli svantaggi dell'AI</a>
+                        <a href="AinelleScuole.html">6. L'AI nelle scuole</a>
+                        <a href="AIEtica.html">7. Ai e l'etica</a>
+                        <a href="uomoMacchina.html">8. Differenza tra uomo e macchina</a>
+                        <a href="sociale.html">9. L'impatto sociale delle macchine</a>
+                        <a href="responsabilita.html">10. Responsabilitá delle macchine</a>
+                        <a href="autogestione.html">11. L'autogestione dell'AI</a>
+                        <a href="IndagineStatistica.html">12. L'indagine statistica</a>
                     </div>
                 </div>
-                <a href="chisiamo.html">Chi siamo</a>
-                <a href="index.html">Home</a>
-                <button href="#" class="contattibt" onclick="toggleTheme()">Dark Mode</button>
-            </nav>
-        </header>
-        <section>
-            <div class="zonaBox">
-                <div class="col1">
-                    <h2>Paragrafi</h2>
-                    <a href="#">Differenza tra uomo e macchina</a>
-                    <a href="#sensibile">Il sensibile</a>
-                    <a href="#libero-arbitrio">Il libero arbitrio</a>
-                    <a href="#indeterminismo">Inderterminismo scientifico sul libero arbitrio</a>
-                    <a href="#conclusione">Conclusione del libero arbitrio</a>
-                </div>
-                <div class="col2">
-                    <div class="boxtesto">
-                        <h1>Differenza tra uomo e macchina</h1>
-                        <h2>
-                            Se lo sviluppo tecnico è arrivata a costruire quella che è chiamata “intelligenza artificiale”, quale differenza rimane tra uomo e macchina?<br> 
-                            Cosa cambia tra la nostra coscienza e quella loro?
-                        </h2>
-                        <p>	Davanti a questa domanda si cerca spesso di rispondere in maniera più oggettiva possibile, quindi si arriva a spiegare le 
-                            differenze tecniche delle due, citando, ad esempio, la differenza in velocità di calcolo, efficienza ecc.. Tuttavia, in 
-                            questo modo, viene trascurato il senso più importante della domanda, che riguarda, invece, le differenze <b>sostanziali</b> delle cose.<br>
-                            In questa pagina ci concentreremo su due aspetti, che ci rendono ancora diversi dall’intelligenza artificiale:
-                        </p><br>
-                            <ul>
-                                <li>Il sensibile</li>
-                                <li>Il Libero arbitrio</li>
-                            </ul>
-                        <h2 id="sensibile">Il sensibile</h2>
-                        <p>Se volessimo considerare il nostro cervello dal punto di vista <b>puramente materiale</b>, cioè come un mezzo che <b>raccoglie segnali</b> 
-                            o dati esterni ed esegue una reazione di conseguenza, potremmo paragonarlo a una macchina.<br>
-                            Eppure così rischieremmo di ignorare il <b>come</b> lo percepisce, che ci rende invece assai diversi dalle macchine.
-                        </p><br>
-                        <p>Se, come ben sappiamo, i sistemi di Intelligenza Artificiale eseguono meccanicamente dei comandi in base ai dati che gli vengono forniti, 
-                            ciò non si può dire esattamente sull’uomo. <br>
-                            Perfino gli organismi unicellulari, che non hanno un cervello, o le piante, secondo recenti studi<a class="ref" href="#link1">[1]</a>, rispondono agli stimoli e ai segnali 
-                            ricevuti dall’ambiente, agendo di conseguenza; tuttavia in grande parte degli animali e negli uomini questo avviene attraverso delle <i>sensazioni</i> più complesse.
-                        </p><br>
-                        <p>Benché potrebbe sembrare una questione banale, l’uomo è dotato di <i>esperienze sensoriali</i> che giungono alla nostra coscienza. La prima cosa che 
-                            ci differenzia dalle macchine è proprio il <b>dolore</b>.
-                        </p><br>
-                        <p>Ciò avviene attraverso un sistema nel nostro corpo, specializzato a identificare gli stimoli di dolore e trasportarli al cervello, quindi elaborarli e 
-                            rendere la nostra coscienza <b>consapevole</b> del dolore.<a class="ref" href="#link2">[2]</a><br>
-                            Questi stimoli, come sappiamo, vengono trasmessi nel cervello attraverso reazioni chimiche e segnali elettrici, trasmessi nelle sinapsi all’interno 
-                            del sistema nervoso. Alla fine si arriva a un segnale che entra nel sistema cerebrale.<br>
-                            Dunque, i segnali che arrivano all’uomo sono di natura <b>chimica</b>, <b>analogica</b>, mentre quelli dell’Intelligenza Artificiale rimangono logici o virtuali.
-                        </p><br><br>
-                        <p>Detto questo, noi percepiamo le sensazioni non solo come informazioni, ma come esperienza personale. Se noi volessimo dare a una macchina il compito di provarle, 
-                            l’unico modo per farlo sarebbe <i>simulare</i> quelle sensazioni, ad esempio attivando meccanismi di elaborazione dei dati esterni. Infatti, l’unico modo per rendere una 
-                            macchina simile a noi, è farle imitare i nostri atteggiamenti, ma ciò non basterebbe per rendere la macchina <b>senziente</b>.
-                        </p><br>
-                        <h2 id="libero-arbitrio">Il libero arbitrio</h2>
-                        <p>
-                            Tra le domande esistenziali che sempre hanno accompagnato l’uomo, è comune la questione sulla <b>capacità dell’uomo di scegliere liberamente</b>, 
-                            posta in contrasto con la apparente evidenza del determinismo: se ogni evento implica una conseguenza, <b>ogni evento è una conseguenza</b>.
-                        </p><br>
-                        <p>
-                            La questione si può dire fondarsi su due considerazioni.<br>
-                            La prima è come <u>la coscienza di ogni essere umano intuisce l’evidenza della libertà di scelta (libero arbitrio)</u>. Non si agisce  quindi di 
-                            semplice conseguenza, ma si è dotati di volontà attraverso il quale andiamo a scegliere.<br>
-                            La seconda considerazione è, invece, che <u>se il mondo fisico è determinato dalle leggi naturali, e noi ne facciamo parte, anche noi siamo determinati 
+            </div>
+            <a href="chisiamo.html">Chi siamo</a>
+            <a href="index.html">Home</a>
+            <div class="switch">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" onclick="toggleTheme()" />
+                    <div class="slider round"></div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="zonaBox">
+            <div class="col1">
+                <h2>Paragrafi</h2>
+                <a href="#">Differenza tra uomo e macchina</a>
+                <a href="#sensibile">Il sensibile</a>
+                <a href="#libero-arbitrio">Il libero arbitrio</a>
+                <a href="#indeterminismo">Inderterminismo scientifico sul libero arbitrio</a>
+                <a href="#conclusione">Conclusione del libero arbitrio</a>
+            </div>
+            <div class="col2">
+                <div class="boxtesto">
+                    <h1>Differenza tra uomo e macchina</h1>
+                    <h2>
+                        Se lo sviluppo tecnico è arrivata a costruire quella che è chiamata “intelligenza artificiale”,
+                        quale differenza rimane tra uomo e macchina?<br>
+                        Cosa cambia tra la nostra coscienza e quella loro?
+                    </h2>
+                    <p> Davanti a questa domanda si cerca spesso di rispondere in maniera più oggettiva possibile,
+                        quindi si arriva a spiegare le
+                        differenze tecniche delle due, citando, ad esempio, la differenza in velocità di calcolo,
+                        efficienza ecc.. Tuttavia, in
+                        questo modo, viene trascurato il senso più importante della domanda, che riguarda, invece, le
+                        differenze <b>sostanziali</b> delle cose.<br>
+                        In questa pagina ci concentreremo su due aspetti, che ci rendono ancora diversi
+                        dall’intelligenza artificiale:
+                    </p><br>
+                    <ul>
+                        <li>Il sensibile</li>
+                        <li>Il Libero arbitrio</li>
+                    </ul>
+                    <h2 id="sensibile">Il sensibile</h2>
+                    <p>Se volessimo considerare il nostro cervello dal punto di vista <b>puramente materiale</b>, cioè
+                        come un mezzo che <b>raccoglie segnali</b>
+                        o dati esterni ed esegue una reazione di conseguenza, potremmo paragonarlo a una macchina.<br>
+                        Eppure così rischieremmo di ignorare il <b>come</b> lo percepisce, che ci rende invece assai
+                        diversi dalle macchine.
+                    </p><br>
+                    <p>Se, come ben sappiamo, i sistemi di Intelligenza Artificiale eseguono meccanicamente dei comandi
+                        in base ai dati che gli vengono forniti,
+                        ciò non si può dire esattamente sull’uomo. <br>
+                        Perfino gli organismi unicellulari, che non hanno un cervello, o le piante, secondo recenti
+                        studi<a class="ref" href="#link1">[1]</a>, rispondono agli stimoli e ai segnali
+                        ricevuti dall’ambiente, agendo di conseguenza; tuttavia in grande parte degli animali e negli
+                        uomini questo avviene attraverso delle <i>sensazioni</i> più complesse.
+                    </p><br>
+                    <p>Benché potrebbe sembrare una questione banale, l’uomo è dotato di <i>esperienze sensoriali</i>
+                        che giungono alla nostra coscienza. La prima cosa che
+                        ci differenzia dalle macchine è proprio il <b>dolore</b>.
+                    </p><br>
+                    <p>Ciò avviene attraverso un sistema nel nostro corpo, specializzato a identificare gli stimoli di
+                        dolore e trasportarli al cervello, quindi elaborarli e
+                        rendere la nostra coscienza <b>consapevole</b> del dolore.<a class="ref"
+                            href="#link2">[2]</a><br>
+                        Questi stimoli, come sappiamo, vengono trasmessi nel cervello attraverso reazioni chimiche e
+                        segnali elettrici, trasmessi nelle sinapsi all’interno
+                        del sistema nervoso. Alla fine si arriva a un segnale che entra nel sistema cerebrale.<br>
+                        Dunque, i segnali che arrivano all’uomo sono di natura <b>chimica</b>, <b>analogica</b>, mentre
+                        quelli dell’Intelligenza Artificiale rimangono logici o virtuali.
+                    </p><br><br>
+                    <p>Detto questo, noi percepiamo le sensazioni non solo come informazioni, ma come esperienza
+                        personale. Se noi volessimo dare a una macchina il compito di provarle,
+                        l’unico modo per farlo sarebbe <i>simulare</i> quelle sensazioni, ad esempio attivando
+                        meccanismi di elaborazione dei dati esterni. Infatti, l’unico modo per rendere una
+                        macchina simile a noi, è farle imitare i nostri atteggiamenti, ma ciò non basterebbe per rendere
+                        la macchina <b>senziente</b>.
+                    </p><br>
+                    <h2 id="libero-arbitrio">Il libero arbitrio</h2>
+                    <p>
+                        Tra le domande esistenziali che sempre hanno accompagnato l’uomo, è comune la questione sulla
+                        <b>capacità dell’uomo di scegliere liberamente</b>,
+                        posta in contrasto con la apparente evidenza del determinismo: se ogni evento implica una
+                        conseguenza, <b>ogni evento è una conseguenza</b>.
+                    </p><br>
+                    <p>
+                        La questione si può dire fondarsi su due considerazioni.<br>
+                        La prima è come <u>la coscienza di ogni essere umano intuisce l’evidenza della libertà di scelta
+                            (libero arbitrio)</u>. Non si agisce quindi di
+                        semplice conseguenza, ma si è dotati di volontà attraverso il quale andiamo a scegliere.<br>
+                        La seconda considerazione è, invece, che <u>se il mondo fisico è determinato dalle leggi
+                            naturali, e noi ne facciamo parte, anche noi siamo determinati
                             dalle leggi naturali</u>.<br><br>
-                            Davanti a queste considerazioni emergono tre diverse principali posizioni filosofiche:
-                        </p>
-                        <ol>
-                            <li>I compatibilisti, che sostengono le due considerazioni essere compatibili;</li>
-                            <li>Gli incompatibilisti, che invece sostengono il contrario.<br>
-                                Da questi si distinguono i liberisti, che si concentrano sul libero arbitrio e i deterministi radicali che invece si concentrano sul determinismo.</li>
-                        </ol>
-                        <p>
-                            Da parte dei deterministi radicali si è arrivati alla conclusione che il libero arbitrio sia solo un’<b>illusione</b>, e che quindi la nostra intuizione è falsa, 
-                            perché non si potrebbe spiegarlo sul mondo fisico in modo abbastanza convincente.<br>
-                            Dal determinismo radicale si è giunti all’estrema convinzione del <b>fatalismo</b>: se ogni azione è determinata, e quindi noi non siamo liberi, 
-                            allora nessuno può agire in modo da cambiare il mondo.
-                        </p><br><br>
-                        <p>
-                            Nella prospettiva liberista, l’uomo invece agisce come “mezzo intermedio” tra i segnali e la conseguente azione, quindi la nostra coscienza possiede 
-                            una proprietà di autodeterminazione, indipendente da fattori esterni. Queste posizioni vengono definite dai deterministi come “antiscientifiche” o basarsi 
-                            su supposizioni metafisiche.<br>
-                            A questo punto, si potrebbe obiettare che allo stesso modo, per abbracciare la supposizione metafisica che tutto sia intuibile alla fisica, i deterministi 
-                            hanno dovuto arrivare a una <b>approssimazione</b> della concezione umana e della sua intuizione sul libero arbitrio, definendo quindi la libertà umana 
-                            un’”illusione”.<br>
-                            Con la concezione liberista, non si tratta di negare le leggi della fisica (determinismo) per abbracciare una supposizione teorica, ma pur tenendo queste 
-                            in considerazione, <b>non perdere di vista la prospettiva più ampia, sostanziale</b> dell’essere umano come <b>persona cosciente</b>, che peraltro definisce le scienze 
-                            umane.<br>
-                            Potrebbe la macchina raggiungere la nostra coscienza? Sinché non si prova la macchinosità dell’uomo, non è possibile rispondere a questa domanda.
-                        </p><br><br>
-                        <h2 id="indeterminismo">Inderterminismo scientifico sul libero arbitrio</h2>
-                        <p>
-                            La meccanica classica è andata in crisi con l’avvento delle scoperte nel mondo quantistico, in cui la probabilità ha definito non più <b>un’approssimazione</b> 
-                            dovuta ad una mancanza di dati, ma una <b>proprietà stessa</b> del mondo fisico. Si è provato a salvare il determinismo, assumendo la “teoria delle variabili locali”, 
-                            ma questa è stata discussa con il lavoro di John Bell. Alla fine si è arrivati da una concezione di determinismo a un’apparente evidenza di <b>indeterminismo</b>.
-                        </p>
-                        <p>
-                            Venne inoltre messa in discussione la compatibilità di questa con il libero arbitrio. Se le proprietà del mondo quantistico sono affidate al caso, e questo 
-                            diventa perciò l’unico principio accettabile che permetta altri eventi possibili, rimarrebbe non controllabile dalla volontà umana.<a class="ref" href="#link3">[3]</a><br>
-                            Secondo alcune teorie liberiste, l’indeterminismo non conferma di per sé il libero arbitrio, ma <b>dimostra falsa l’inconfutabilità del determinismo</b>.
-                        </p><br><br>
-                        <p id="conclusione">
-                            Se per provare l’esistenza o la verità di qualcosa basta dimostrarla, per provare la non esistenza, no. Si può solo supporre in base al punto 
-                            di vista da cui si parte, da ciò di cosa si vuole, accettare o negare a priori.
-                        </p>
-                        <div class="bibliografia">
-                            Bibliografia<br>
-                            [1] <a class="link" id="link1" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8052213/">Vedi: confutazione della coscienza delle piante (inglese)</a><br>
-                            [2] <a class="link" id="link2" href="https://www.treccani.it/enciclopedia/basi-biologiche-del-dolore_(XXI-Secolo)/">https://www.treccani.it/enciclopedia/basi-biologiche-del-dolore_(XXI-Secolo)/</a><br>
-                            [3] <a class="link" id="link3" href="https://www.treccani.it/enciclopedia/liberta-e-determinismo_(Enciclopedia-Italiana)/">https://www.treccani.it/enciclopedia/liberta-e-determinismo_(Enciclopedia-Italiana)/</a><br>
-                            <a href="http://hdl.handle.net/10579/6540">il dibattito sul libero arbitrio nella filosofia analitica contemporanea</a><br>
-                        </div>
-                        </div>
-                        <div class="zonaImg">
-                        </div>
+                        Davanti a queste considerazioni emergono tre diverse principali posizioni filosofiche:
+                    </p>
+                    <ol>
+                        <li>I compatibilisti, che sostengono le due considerazioni essere compatibili;</li>
+                        <li>Gli incompatibilisti, che invece sostengono il contrario.<br>
+                            Da questi si distinguono i liberisti, che si concentrano sul libero arbitrio e i
+                            deterministi radicali che invece si concentrano sul determinismo.</li>
+                    </ol>
+                    <p>
+                        Da parte dei deterministi radicali si è arrivati alla conclusione che il libero arbitrio sia
+                        solo un’<b>illusione</b>, e che quindi la nostra intuizione è falsa,
+                        perché non si potrebbe spiegarlo sul mondo fisico in modo abbastanza convincente.<br>
+                        Dal determinismo radicale si è giunti all’estrema convinzione del <b>fatalismo</b>: se ogni
+                        azione è determinata, e quindi noi non siamo liberi,
+                        allora nessuno può agire in modo da cambiare il mondo.
+                    </p><br><br>
+                    <p>
+                        Nella prospettiva liberista, l’uomo invece agisce come “mezzo intermedio” tra i segnali e la
+                        conseguente azione, quindi la nostra coscienza possiede
+                        una proprietà di autodeterminazione, indipendente da fattori esterni. Queste posizioni vengono
+                        definite dai deterministi come “antiscientifiche” o basarsi
+                        su supposizioni metafisiche.<br>
+                        A questo punto, si potrebbe obiettare che allo stesso modo, per abbracciare la supposizione
+                        metafisica che tutto sia intuibile alla fisica, i deterministi
+                        hanno dovuto arrivare a una <b>approssimazione</b> della concezione umana e della sua intuizione
+                        sul libero arbitrio, definendo quindi la libertà umana
+                        un’”illusione”.<br>
+                        Con la concezione liberista, non si tratta di negare le leggi della fisica (determinismo) per
+                        abbracciare una supposizione teorica, ma pur tenendo queste
+                        in considerazione, <b>non perdere di vista la prospettiva più ampia, sostanziale</b> dell’essere
+                        umano come <b>persona cosciente</b>, che peraltro definisce le scienze
+                        umane.<br>
+                        Potrebbe la macchina raggiungere la nostra coscienza? Sinché non si prova la macchinosità
+                        dell’uomo, non è possibile rispondere a questa domanda.
+                    </p><br><br>
+                    <h2 id="indeterminismo">Inderterminismo scientifico sul libero arbitrio</h2>
+                    <p>
+                        La meccanica classica è andata in crisi con l’avvento delle scoperte nel mondo quantistico, in
+                        cui la probabilità ha definito non più <b>un’approssimazione</b>
+                        dovuta ad una mancanza di dati, ma una <b>proprietà stessa</b> del mondo fisico. Si è provato a
+                        salvare il determinismo, assumendo la “teoria delle variabili locali”,
+                        ma questa è stata discussa con il lavoro di John Bell. Alla fine si è arrivati da una concezione
+                        di determinismo a un’apparente evidenza di <b>indeterminismo</b>.
+                    </p>
+                    <p>
+                        Venne inoltre messa in discussione la compatibilità di questa con il libero arbitrio. Se le
+                        proprietà del mondo quantistico sono affidate al caso, e questo
+                        diventa perciò l’unico principio accettabile che permetta altri eventi possibili, rimarrebbe non
+                        controllabile dalla volontà umana.<a class="ref" href="#link3">[3]</a><br>
+                        Secondo alcune teorie liberiste, l’indeterminismo non conferma di per sé il libero arbitrio, ma
+                        <b>dimostra falsa l’inconfutabilità del determinismo</b>.
+                    </p><br><br>
+                    <p id="conclusione">
+                        Se per provare l’esistenza o la verità di qualcosa basta dimostrarla, per provare la non
+                        esistenza, no. Si può solo supporre in base al punto
+                        di vista da cui si parte, da ciò di cosa si vuole, accettare o negare a priori.
+                    </p>
+                    <div class="bibliografia">
+                        Bibliografia<br>
+                        [1] <a class="link" id="link1"
+                            href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8052213/">Vedi: confutazione della
+                            coscienza delle piante (inglese)</a><br>
+                        [2] <a class="link" id="link2"
+                            href="https://www.treccani.it/enciclopedia/basi-biologiche-del-dolore_(XXI-Secolo)/">https://www.treccani.it/enciclopedia/basi-biologiche-del-dolore_(XXI-Secolo)/</a><br>
+                        [3] <a class="link" id="link3"
+                            href="https://www.treccani.it/enciclopedia/liberta-e-determinismo_(Enciclopedia-Italiana)/">https://www.treccani.it/enciclopedia/liberta-e-determinismo_(Enciclopedia-Italiana)/</a><br>
+                        <a href="http://hdl.handle.net/10579/6540">il dibattito sul libero arbitrio nella filosofia
+                            analitica contemporanea</a><br>
+                    </div>
+                </div>
+                <div class="zonaImg">
+                </div>
                 <div class="col3">
 
                 </div>
             </div>
-        </section>
-        <footer>
-            <h2>Collegamenti alle altre pagine</h2>
-            <div class="menu">
-                <a href="cosaeAI.html">1. Cos'é l' AI?</a>
-                <a href="AiforteDebole.html">2. AI forte e debole</a>
-                <a href="retiNeurali.html">3. Reti neurali</a>
-                <a href="Sicurezza.html">4. La sicurezza dell'AI</a>
-                <a href="VantaggiSvantaggi.html">5. I vantaggi e gli svantaggi dell'AI</a>
-                <a href="AinelleScuole.html">6. L'AI nelle scuole</a>
-                <a href="AIEtica.html">7. AI e l'etica</a>
-                <a href="uomoMacchina.html" style="background-color: var(--backbutton); border-radius: 25px;">8. Differenza tra uomo e macchina</a>
-                <a href="sociale.html">9. L'impatto sociale delle macchine</a>
-                <a href="responsabilita.html">10. Responsabilitá delle macchine</a>
-                <a href="autogestione.html">11. L'autogestione dell'AI</a>
-                <a href="IndagineStatistica.html">12. L'indagine statistica</a>
-            </div>
-                    <span class="imgEsteso">
-           
+    </section>
+    <footer>
+        <h2>Collegamenti alle altre pagine</h2>
+        <div class="menu">
+            <a href="cosaeAI.html">1. Cos'è l' AI?</a>
+            <a href="AiforteDebole.html">2. AI Forte e Debole</a>
+            <a href="retiNeurali.html">3. Reti neurali</a>
+            <a href="Sicurezza.html">4. La sicurezza dell'AI</a>
+            <a href="VantaggiSvantaggi.html">5. I vantaggi e gli svantaggi dell'AI</a>
+            <a href="AinelleScuole.html">6. L'AI nelle scuole</a>
+            <a href="AIEtica.html">7. AI e l'etica</a>
+            <a href="uomoMacchina.html" style="background-color: var(--backbutton); border-radius: 25px;">8. Differenza
+                tra uomo e macchina</a>
+            <a href="sociale.html">9. L'impatto sociale delle macchine</a>
+            <a href="responsabilita.html">10. Responsabilitá delle macchine</a>
+            <a href="autogestione.html">11. L'autogestione dell'AI</a>
+            <a href="IndagineStatistica.html">12. L'indagine statistica</a>
+        </div>
+        <span class="imgEsteso">
+
         </span>
-            <div class="destit">
-                <p>Copyright © 2024. Tutti i diritti riservati.</p>
-            </div>
-        </footer>
-    </body>
+        <div class="destit">
+            <p>Copyright © 2024. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+</body>
+
 </html>
