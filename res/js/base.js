@@ -31,8 +31,10 @@ function changeSetting(settingName, value){
 function applyTheme(){
     if(settings.isDark){
         var palette = ["#E6E6E6", "#E6E6E6", "#1B262C",  "#001D4A",  "#1c6495",  "#1B262C",  "#E6E6E6",  "#E6E6E6",  "#FFB60A",  "#FFB60A", "#040549", "#060f24"];
+        $('body').css("backgroundImage", "../../res/img/bkg2.svg");
     }else{
         var palette = ["#E6E6E6", "#000", "#E6E6E6",  "#001D4A",  "#0084e7",  "#E6E6E6",  "#0084e7",  "#E6E6E6",  "#FFB60A", "#FFB60A", "#040549", "#060f24"];
+        $('body').css("backgroundImage", "../../res/img/bkg1.svg");
     }
 
     document.documentElement.style.setProperty('--testo', palette[0]);
