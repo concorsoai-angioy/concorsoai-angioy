@@ -10,21 +10,30 @@ window.onload = function() {
     setInterval("bgscroll()", scrollSpeed);
 };
 
-var isDark = localStorage.getItem("isDark");
-console.log(isDark)
-if(isDark){
-    darkmode();
+var settings = JSON.parse(localStorage.getItem("settings") || "{}");
+
+applyTheme()
+
+function toggleTheme(){
+    changeSetting("isDark", !settings.isDark)
+    applyTheme()
 }
 
-function darkmode(){
-    if(!isDark){
+function saveSettings(){
+    localStorage.setItem("settings", JSON.stringify(settings))
+}
+
+function changeSetting(settingName, value){
+    settings[settingName] = value
+    saveSettings()
+}
+
+function applyTheme(){
+    if(settings.isDark){
         var palette = ["#E6E6E6", "#E6E6E6", "#1B262C",  "#001D4A",  "#1c6495",  "#1B262C",  "#E6E6E6",  "#E6E6E6",  "#FFB60A",  "#FFB60A", "#040549", "#060f24"];
     }else{
         var palette = ["#E6E6E6", "#000", "#E6E6E6",  "#001D4A",  "#0084e7",  "#E6E6E6",  "#0084e7",  "#E6E6E6",  "#FFB60A", "#FFB60A", "#040549", "#060f24"];
     }
-
-    isDark = !isDark;
-    localStorage.setItem("isDark", isDark);
 
     document.documentElement.style.setProperty('--testo', palette[0]);
     document.documentElement.style.setProperty('--testo2', palette[1]);
