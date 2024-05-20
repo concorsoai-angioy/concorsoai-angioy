@@ -206,7 +206,7 @@ nav a:hover{
 }
 
 .esplorabt{
-    padding: 10%;
+    padding: 6px 22px;
     border: solid 3px var(--backbutton);
     border-radius: 25px;
 }
