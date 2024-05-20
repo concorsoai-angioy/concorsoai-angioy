@@ -95,12 +95,11 @@ section {
 
 .boxtesto p {
     color: var(--testo2);
-    
     font-weight: 500;
 }
 
 .boxtesto b {
-    color: var(--sfondoDiv);
+    color: var(--sfondoDiv2);
     /* padding: 2px 5px;
     border-radius: 5px;
     border: solid 1px; */
