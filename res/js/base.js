@@ -26,7 +26,7 @@ function saveSettings() {
 
 function changeSetting(settingName, value) {
     settings[settingName] = value
-    saveSettings()
+    saveSettings()   
 }
 
 function applyTheme() {
@@ -50,6 +50,9 @@ function applyTheme() {
     document.documentElement.style.setProperty('--backbutton', palette[9]);
     document.documentElement.style.setProperty('--sfondonav', palette[10]);
     document.documentElement.style.setProperty('--sfondonav2', palette[11]);
+
+    var checkbox = document.getElementById("checkbox");
+    checkbox.checked = settings.isDark;
 }
 
 
