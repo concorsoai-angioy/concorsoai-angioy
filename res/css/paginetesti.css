@@ -88,6 +88,10 @@ section {
     list-style-position: inside;
 }
 
+.boxtesto li {
+    transition: ease 1s;
+}
+
 .boxtesto {
     width: 100%;
     padding: 3%;
