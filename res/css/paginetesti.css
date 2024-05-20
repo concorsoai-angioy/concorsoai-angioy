@@ -72,6 +72,7 @@ section {
     font-weight: 600;
     color: #000;
     border-top: solid var(--sfondo);
+    transition: ease 1s;
 }
 
 .col1 a:hover {
@@ -110,6 +111,7 @@ section {
 .boxtesto p {
     color: var(--testo2);
     font-weight: 500;
+    transition: ease 1s;
 }
 
 .boxtesto b {
@@ -117,6 +119,7 @@ section {
     padding: 2px 5px;
     border-radius: 5px;
     background-color: var(--sfondoDiv2);
+    transition: ease 1s;
 }
 
 h1 {
