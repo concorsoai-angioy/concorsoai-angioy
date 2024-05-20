@@ -106,8 +106,12 @@ section {
     border: solid 1px; */
 }
 
-h1, h2 {
+h1 {
     color: var(--dettagli)
+}
+
+h2 {
+    color: var(--sfondoDiv2)
 }
 
 .bibliografia {
