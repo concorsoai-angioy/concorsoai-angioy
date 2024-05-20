@@ -249,10 +249,10 @@ footer h2{
     background-color: var(--testo);
     border-radius: 25px;
     margin-left: -2%;
+    padding-inline: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
     background-size: cover;
-    
 }
 
 .menu a{
@@ -260,8 +260,11 @@ footer h2{
     color: var(--testo2);
     padding: 2%;
     text-align: left;
+    align-self: center;
     text-wrap: nowrap;
     margin-inline: 20px;
+    padding-right: 10px;
+    padding-left: 5px;
 }
 
 .menu a:hover{
@@ -301,19 +304,19 @@ footer h2{
     border: none; 
 }
 
-.dropbtn:hover {
+.dropbtn:hover{
     padding: 20px;
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
+.dropdown{
   text-align: center;
   position: relative;
   display: inline-block;
 }
 
 /* Dropdown Content (Nascosto di Default) */
-.dropdown-content {
+.dropdown-content{
   display: none;
   position: absolute;
   border-radius: 15px;
@@ -328,7 +331,7 @@ footer h2{
 }
 
 /* collegamenti all'interno del dropdown */
-.dropdown-content a {
+.dropdown-content a{
     color: var(--testo);
     text-align: left;
     margin-left: 5%;
