@@ -47,7 +47,7 @@ section {
     text-align: left;
     align-content: center;
     color: var(--testo);
-    background: rgb(204, 204, 204);
+    background: rgba(255, 255, 255, 0.7);
     /* Colore semi-trasparente */
     border-radius: 25px;
     margin-left: 3%;
