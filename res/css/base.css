@@ -222,6 +222,7 @@ nav a:hover{
 }
 
 footer{
+    margin-top: 2%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 0.5fr) 0.25fr;
@@ -278,7 +279,11 @@ footer h2{
 .imgEsteso{
     grid-column: 9 / span 3;
     grid-row: 2 / span 1; /* Modifica qui per cambiare la posizione della riga */
-    display: grid;
+    display: flex;
+    background-image: url(../../res/img/logoEsteso.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     grid-template-columns: 1fr 1fr;
 }
 
