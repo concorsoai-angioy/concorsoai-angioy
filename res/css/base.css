@@ -229,11 +229,6 @@ nav a:hover {
     transition: all .4s ease;
 }
 
-[data-theme="dark"] {
-    --font-color: #fefefe;
-    --bg-color: #121212;
-}
-
 .theme-switch {
     display: inline-block;
     height: 40px;
