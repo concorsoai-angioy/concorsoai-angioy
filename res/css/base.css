@@ -167,12 +167,7 @@ body{
 }
 
 header{
-<<<<<<< HEAD
-    background-color: var(--sfondonav);
-=======
-    margin-top: 1%;
     background-color: var(--sfondoDiv);
->>>>>>> 627ebd2 (.)
     height: 80px;
     width: 80%;
     margin-inline: 10%;
@@ -356,9 +351,9 @@ footer h2{
 
 .menucontent{
     margin-top: 10px;
-    background-color: var(--sfondonav);
+    background-color: var(--sfondoDiv);
     border-radius:25px;
-    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.75);
 }
 
 /* collegamenti all'interno del dropdown */
