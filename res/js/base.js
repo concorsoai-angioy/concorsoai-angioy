@@ -9,7 +9,6 @@ function bgscroll() {
 window.onload = function () {
     setInterval("bgscroll()", scrollSpeed);
     risolviProblemi();
-    applyTheme();
 };
 
 var settings = JSON.parse(localStorage.getItem("settings") || "{}");
@@ -49,11 +48,16 @@ function applyTheme() {
     document.documentElement.style.setProperty('--backbutton', palette[9]);
     document.documentElement.style.setProperty('--sfondonav', palette[10]);
     document.documentElement.style.setProperty('--sfondonav2', palette[11]);
-
-
 }
 
 function risolviProblemi(){
+    document.documentElement.style.setProperty('--transizione', "0s");
+    $('body').css("transition", "0s");
     var checkbox = document.getElementById("checkbox");
     checkbox.checked = settings.isDark;
+    applyTheme();
+    setTimeout(function(){
+        document.documentElement.style.setProperty('--transizione', ".4s");
+        $('body').css("transition", "ease 1s");
+    }, 1000);
 }

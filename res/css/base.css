@@ -161,7 +161,6 @@ body {
     background-color: var(--sfondo);
     color: var(--testo);
     font-family: Roboto;
-    background-image: url("../../res/img/bkg1.svg");
     background-size: cover;
     background-repeat: repeat-y;
     background-position: center;
@@ -241,6 +240,10 @@ nav a:hover {
     display: none;
 }
 
+:root{
+    --transizione: ".4s";
+}
+
 /* Sfondo WM */
 .slider {
     background-color: var(--sfondo);
@@ -250,7 +253,7 @@ nav a:hover {
     position: absolute;
     right: 0;
     top: 0;
-    transition: .4s;
+    transition: var(--transizione);
     padding: 5px;
 }
 
@@ -266,15 +269,10 @@ nav a:hover {
     height: 30px;
     left: 4px;
     position: absolute;
-    transition: .4s;
+    transition: var(--transizione);
     width: 30px;
     border-radius: 50%;
 }
-
-/* Sfondo WM */
-/* input:checked + .slider {
-  background-color: #2b2b2b;
-} */
 
 /* Pallino BM */
 input:checked+.slider:before {
