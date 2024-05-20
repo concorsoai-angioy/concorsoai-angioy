@@ -21,12 +21,12 @@
                 <div class="dropdown-content">
                     <div class="menucontent">
                         <a href="cosaeAI.html">1. Cosa è l' AI?</a>
-                        <a href="AiforteDebole.html">2. AI Forte e Debole</a>
+                        <a href="AIforteDebole.html">2. AI Forte e Debole</a>
                         <a href="retiNeurali.html">3. Reti neurali</a>
                         <a href="Sicurezza.html">4. La sicurezza dell'AI</a>
                         <a href="VantaggiSvantaggi.html">5. I vantaggi e gli svantaggi dell'AI</a>
-                        <a href="AinelleScuole.html">6. L'AI nelle scuole</a>
-                        <a href="AIEtica.html">7. Ai e l'etica</a>
+                        <a href="AInelleScuole.html">6. L'AI nelle scuole</a>
+                        <a href="AIEtica.html">7. AI e l'etica</a>
                         <a href="uomoMacchina.html">8. Differenza tra uomo e macchina</a>
                         <a href="sociale.html">9. L'impatto sociale delle macchine</a>
                         <a href="responsabilita.html">10. Responsabilitá delle macchine</a>
@@ -45,7 +45,7 @@
         </nav>
     </header>
     <section>
-        <div class="container">
+        <div class="contAIner">
             <div id="inizio">
                 <h1>Indagine statistica</h1>
                 <div id="inizioBlock">
@@ -60,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="contAIner">
             <div class="block SX">
                 <span class="text">
                     Da qui possiamo evincere che la maggior parte degli studenti ha famigliarità con l’argomento mentre
@@ -69,7 +69,7 @@
                 <span class="grafico" id="img2"></span>
             </div>
         </div>
-        <div class="container">
+        <div class="contAIner">
             <div class="block DX">
                 <span class="grafico" id="img3"></span>
                 <span class="text">
@@ -78,7 +78,7 @@
                 </span>
             </div>
         </div>
-        <div class="container">
+        <div class="contAIner">
             <div class="block SX">
                 <span class="text">
                     Possiamo osservare di nuovo un parere equidistribuito fra gli studenti e notiamo una maggior
@@ -87,7 +87,7 @@
                 <span class="grafico" id="img4"></span>
             </div>
         </div>
-        <div class="container">
+        <div class="contAIner">
             <div class="block DX">
                 <span class="grafico" id="img5"></span>
                 <span class="text">
@@ -95,7 +95,7 @@
                 </span>
             </div>
         </div>
-        <div class="container">
+        <div class="contAIner">
             <div class="block SX">
                 <span class="text">
                     Entrambi i ruoli mostrano preoccupazione anche se una piccola parte degli studenti non si sente
@@ -104,7 +104,7 @@
                 <span class="grafico" id="img6"></span>
             </div>
         </div>
-        <div class="container">
+        <div class="contAIner">
             <div class="block DX">
                 <span class="grafico" id="img7"></span>
                 <span class="text">
@@ -113,7 +113,7 @@
                 </span>
             </div>
         </div>
-        <div class="container">
+        <div class="contAIner">
             <div class="block SX">
                 <span class="text">
                     Si rileva che i docenti hanno espresso una uguale percentuale fra le opzioni 3, 4 e 5. Mentre gli
@@ -123,7 +123,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="contAIner">
             <div id="conclusioni">
                 <h2>Conclusioni</h2>
                 <span>
@@ -134,7 +134,7 @@
                         sostituto del lavoro che svolgono. </p>
                     <p>Un dato che emerge chiaramente è la disinformazione sull’argomento perchè nel quesito: <b>“Sei al
                             corrente della presenza delle leggi Europee sulle AI di questo marzo?”</b> molti non le
-                        conoscono, anche se l’IA è un argomento che è diventato popolare anche per chi non è addetto ai
+                        conoscono, anche se l’IA è un argomento che è diventato popolare anche per chi non è addetto AI
                         lavori.</p>
                 </span>
             </div>
@@ -144,11 +144,11 @@
         <h2>Collegamenti alle altre pagine</h2>
         <div class="menu">
             <a href="cosaeAI.html">1. Cos'è l' AI?</a>
-            <a href="AiforteDebole.html">2. AI Forte e Debole</a>
+            <a href="AIforteDebole.html">2. AI Forte e Debole</a>
             <a href="retiNeurali.html">3. Reti neurali</a>
             <a href="Sicurezza.html">4. La sicurezza dell'AI</a>
             <a href="VantaggiSvantaggi.html">5. I vantaggi e gli svantaggi dell'AI</a>
-            <a href="AinelleScuole.html">6. L'AI nelle scuole</a>
+            <a href="AInelleScuole.html">6. L'AI nelle scuole</a>
             <a href="AIEtica.html">7. AI e l'etica</a>
             <a href="uomoMacchina.html">8. Differenza tra uomo e macchina</a>
             <a href="sociale.html">9. L'impatto sociale delle macchine</a>
@@ -191,7 +191,7 @@
                 duration: 20
             });
 
-            if (block.classList.contains('SX')) {
+            if (block.classList.contAIns('SX')) {
                 tl.fromTo(block, {
                     marginLeft: '5%'
                 }, {
@@ -199,7 +199,7 @@
                     duration: 20
                 });
             }
-            if (block.classList.contains('DX')) {
+            if (block.classList.contAIns('DX')) {
                 tl.fromTo(block, {
                     marginLeft: '15%'
                 }, {
@@ -209,6 +209,9 @@
             }
         });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+    <script src="/res/js/navbar.js"></script>
 </body>
 
 </html>

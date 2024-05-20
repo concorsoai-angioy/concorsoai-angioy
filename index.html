@@ -25,12 +25,12 @@
                 <div class="dropdown-content">
                     <div class="menucontent">
                         <a href="cosaeAI.html">1. Cosa è l' AI?</a>
-                        <a href="AiforteDebole.html">2. AI Forte e Debole</a>
+                        <a href="AIforteDebole.html">2. AI Forte e Debole</a>
                         <a href="retiNeurali.html">3. Reti neurali</a>
                         <a href="Sicurezza.html">4. La sicurezza dell'AI</a>
                         <a href="VantaggiSvantaggi.html">5. I vantaggi e gli svantaggi dell'AI</a>
-                        <a href="AinelleScuole.html">6. L'AI nelle scuole</a>
-                        <a href="AIEtica.html">7. Ai e l'etica</a>
+                        <a href="AInelleScuole.html">6. L'AI nelle scuole</a>
+                        <a href="AIEtica.html">7. AI e l'etica</a>
                         <a href="uomoMacchina.html">8. Differenza tra uomo e macchina</a>
                         <a href="sociale.html">9. L'impatto sociale delle macchine</a>
                         <a href="responsabilita.html">10. Responsabilitá delle macchine</a>
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="zonaBox">
-            <div class="container">
+            <div class="contAIner">
                 <span class="box1" onclick="linkPag(1)">
                     <h1>Cos'è l'AI</h1>
                     <p> L’intelligenza artificiale è l’abilità di una macchina di mostrare capacità umane quali il
@@ -70,7 +70,7 @@
                         ha applicazioni in svariati campi. </p>
                 </span>
             </div>
-            <div class="container">
+            <div class="contAIner">
                 <span class="box2" onclick="linkPag(2)">
                     <h1>AI Forte e Debole</h1>
                     <p> L'AI si suddivide in <b>Debole</b> e <b>Forte</b>. La prima ha l'obbiettivo di realizzare
@@ -83,16 +83,16 @@
                         una rete neurale che si distingue in 3 stati: di Input, Nascosti e di Output.</p>
                 </span>
             </div>
-            <div class="container">
+            <div class="contAIner">
                 <span class="box1" onclick="linkPag(4)">
                     <h1>L'AI e la sicurezza</h1>
                     <p> L’AI con il tempo ha assunto un ruolo sempre più rilevante nel campo della sicurezza
-                        informatica, aiutando in vari modi a intercettare le minacce presenti su internet. </p>
-                    <p> L'AI viene usata per analizzare i dati, transformandoli in informazioni chiare utilizzate dai
+                        informatica, AIutando in vari modi a intercettare le minacce presenti su internet. </p>
+                    <p> L'AI viene usata per analizzare i dati, transformandoli in informazioni chiare utilizzate dAI
                         professionisti.</p>
                 </span>
             </div>
-            <div class="container">
+            <div class="contAIner">
                 <span class="box2" onclick="linkPag(5)">
                     <h1>AI: Vantaggi e Svantaggi</h1>
                     <p> I vantaggi sono principalmente nell'analisi dei dati formulando risposte in tempo reale e
@@ -109,7 +109,7 @@
                 </span>
             </div>
 
-            <div class="container">
+            <div class="contAIner">
                 <span class="box1" onclick="linkPag(7)">
                     <h1>L'AI e l'etica</h1>
                     <p> Per definire un’etica dell’AI è necessario per prima cosa stabilire i ruoli che deve avere la
@@ -118,7 +118,7 @@
                 </span>
             </div>
 
-            <div class="container">
+            <div class="contAIner">
                 <span class="box2" onclick="linkPag(8)">
                     <h1>Differenza uomo macchina</h1>
                     <p> Per rispondere alla domanda sulla differenza tra noi e l'AI si perde spesso il significato della
@@ -133,7 +133,7 @@
                 </span>
             </div>
 
-            <div class="container">
+            <div class="contAIner">
                 <span class="box2" onclick="linkPag(10)">
                     <h1>La responsabilità delle macchine</h1>
                     <p>È possibile affidare le scelte all’AI? Ogni scelta implica una responsabilità, e per questo
@@ -146,7 +146,7 @@
                 </span>
             </div>
 
-            <div class="container" onclick="linkPag(12)">
+            <div class="contAIner" onclick="linkPag(12)">
                 <span class="box1">
                     <h1>L'Indagine statistica</h1>
                     <p> Per verificare i pareri su un argomento così nuovo e divisivo come l’intelligenza artificiale si
@@ -160,11 +160,11 @@
         <h2>Collegamenti alle altre pagine</h2>
         <div class="menu">
             <a href="cosaeAI.html">1. Cos'è l' AI?</a>
-            <a href="AiforteDebole.html">2. AI Forte e Debole</a>
+            <a href="AIforteDebole.html">2. AI Forte e Debole</a>
             <a href="retiNeurali.html">3. Reti neurali</a>
             <a href="Sicurezza.html">4. La sicurezza dell'AI</a>
             <a href="VantaggiSvantaggi.html">5. I vantaggi e gli svantaggi dell'AI</a>
-            <a href="AinelleScuole.html">6. L'AI nelle scuole</a>
+            <a href="AInelleScuole.html">6. L'AI nelle scuole</a>
             <a href="AIEtica.html">7. AI e l'etica</a>
             <a href="uomoMacchina.html">8. Differenza tra uomo e macchina</a>
             <a href="sociale.html">9. L'impatto sociale delle macchine</a>
@@ -182,13 +182,14 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+    <script src="/res/js/navbar.js"></script>
     <script>
         gsap.registerPlugin(ScrollTrigger);
 
-        document.querySelectorAll('.container').forEach((container) => {
+        document.querySelectorAll('.contAIner').forEach((contAIner) => {
             let tl = gsap.timeline({
                 scrollTrigger: {
-                    trigger: container,
+                    trigger: contAIner,
                     start: 'top 90%',
                     end: 'bottom 70%',
                     scrub: true,
@@ -196,7 +197,7 @@
                 }
             });
 
-            tl.fromTo(container, {
+            tl.fromTo(contAIner, {
                 opacity: 0,
                 scale: 0.5,
             }, {
@@ -209,11 +210,11 @@
         function linkPag(n) {
             switch (n) {
                 case 1: window.location.href = "cosaeAI.html"; break;
-                case 2: window.location.href = "AiforteDebole.html"; break;
+                case 2: window.location.href = "AIforteDebole.html"; break;
                 case 3: window.location.href = "retiNeurali.html"; break;
                 case 4: window.location.href = "Sicurezza.html"; break;
                 case 5: window.location.href = "VantaggiSvantaggi.html"; break;
-                case 6: window.location.href = "AinelleScuole.html"; break;
+                case 6: window.location.href = "AInelleScuole.html"; break;
                 case 7: window.location.href = "AIEtica.html"; break;
                 case 8: window.location.href = "uomoMacchina.html"; break;
                 case 9: window.location.href = "sociale.html"; break;
@@ -222,32 +223,6 @@
                 case 12: window.location.href = "IndagineStatistica.html";
             }
         }
-    </script>
-    <!-- <script src="/res/js/navbar.js"></script> -->
-    <script>
-        let tx = gsap.timeline({
-                scrollTrigger: {
-                    trigger: 'nav',
-                    start: 'top 0%',
-                    end: 'bottom 2%',
-                    scrub: true,
-                    markers: false
-                }
-            });
-            
-        tx.fromTo('header', {
-            width:'100%',
-            marginInline:'0%',
-            borderRadius:'0px',
-            position: 'none'
-        },{
-            width:'80%',
-            marginInline:'10%',
-            borderRadius:'300px',
-            duration: 10,
-            position: 'fixed',
-            marginTop: '2%'
-        });
     </script>
 </body>
 
