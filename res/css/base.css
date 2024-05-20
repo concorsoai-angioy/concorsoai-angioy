@@ -112,7 +112,7 @@
   
 
 /* Palette */
-:root {
+ :root {
     --testo: #E6E6E6;
     --testo2: #000;
     --sfondo: #E6E6E6;
@@ -125,16 +125,16 @@
     --backbutton: #FFB60A; 
     --sfondonav: #040549; 
     --sfondonav2: #060f24;
-}
+} 
 
 
-/* :root { PALETTE DARK MODE
+/* :root { DARK MODE
     --testo: #E6E6E6;
     --testo2: #000;
     --sfondo: #1B262C;
     --sfondoDiv: #001D4A;
-    --sfondoDiv2: #0F4C75;
-    --sfondoTestoFooter: #000;
+    --sfondoDiv2: #1c6495;
+    --sfondoTestoFooter: #1B262C;
     --testoFooter: #E6E6E6;
     --titoli: #E6E6E6;
     --dettagli: #FFB60A;
@@ -167,7 +167,7 @@ body{
 }
 
 header{
-    background-color: var(--sfondonav2);
+    background-color: var(--sfondoDiv);
     height: 80px;
     width: 80%;
     margin-inline: 10%;
@@ -247,13 +247,14 @@ footer{
     bottom: 0;
     height: 550px;
     margin-inline: 4%;
-    background-color: var(--sfondonav2);
+    background-color: var(--sfondonav);
     border-radius: 25px 25px 0 0; 
 }
 
 footer h2{
     grid-column: 2 / span 5;
     grid-row: 1 / span 1;
+    color: var(--dettagli);
     text-wrap: nowrap;
     align-self: center;
     text-align: center;
